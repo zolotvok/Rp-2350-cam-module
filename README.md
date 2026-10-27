@@ -14,7 +14,7 @@ A compact camera board for a satellite project, built around an **RP2350B** micr
 | Prototype | Directory | Status | Summary |
 |---|---|---|---|
 | **proto1** | [`hardware/proto1`](hardware/proto1) | Manufactured, brought up | First board: RP2350B, flash, 2 × PSRAM, camera on a 2×9 header. Takes photos up to 2592 × 1944 (JPEG) and streams video over USB. |
-| **proto2** | [`hardware/proto2`](hardware/proto2) | In design | Moves the camera's supply and clock circuitry onto the board and adds a CAN bus interface. |
+| **proto2** | [`hardware/proto2`](hardware/proto2) | In design: schematic done, PCB placed but not routed | Moves the camera's supply and clock circuitry onto the board, wires the camera directly to the RP2350B and adds a CAN bus interface, on a 40 × 40 mm board. |
 
 Each prototype directory has its own README with the details.
 
