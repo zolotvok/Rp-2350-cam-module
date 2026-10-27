@@ -2892,24 +2892,6 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 2.54 0 180)
 					(length 2.54)
 					(name "C"
@@ -2919,7 +2901,25 @@
 							)
 						)
 					)
-					(number "C"
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 0 0)
@@ -3188,7 +3188,7 @@
 							)
 						)
 					)
-					(number "P$1"
+					(number "1"
 						(effects
 							(font
 								(size 0 0)
@@ -3206,7 +3206,7 @@
 							)
 						)
 					)
-					(number "P$2"
+					(number "2"
 						(effects
 							(font
 								(size 0 0)
@@ -3444,24 +3444,6 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 2.54 0 180)
 					(length 2.54)
 					(name "C"
@@ -3471,7 +3453,25 @@
 							)
 						)
 					)
-					(number "C"
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 0 0)
@@ -3734,7 +3734,7 @@
 							)
 						)
 					)
-					(number "P$1"
+					(number "1"
 						(effects
 							(font
 								(size 0 0)
@@ -4873,25 +4873,7 @@
 							)
 						)
 					)
-					(number "SPRT1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -15.24 10.16 0)
-					(length 2.54)
-					(name "DGND"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "SPRT2"
+					(number "MP"
 						(effects
 							(font
 								(size 0 0)
@@ -6000,24 +5982,6 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 2.54 0 180)
 					(length 2.54)
 					(name "C"
@@ -6027,7 +5991,25 @@
 							)
 						)
 					)
-					(number "C"
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 0 0)
@@ -7713,7 +7695,7 @@
 							)
 						)
 					)
-					(number "P$1"
+					(number "1"
 						(effects
 							(font
 								(size 0 0)
@@ -9753,6 +9735,232 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic_MountingPin:Conn_01x03_MountingPin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_MountingPin"
+				(at 1.27 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_MountingPin_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.572) (xy 1.016 -4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -4.191 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -11218,6 +11426,184 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12696,29 +13082,6 @@
 		)
 		(uuid "9d56eff3-e628-4e47-be42-24a8a4b2a24f")
 	)
-	(text "ON LED"
-		(exclude_from_sim no)
-		(at 382.27 275.59 0)
-		(effects
-			(font
-				(size 2.1844 1.8567)
-			)
-			(justify left bottom)
-		)
-		(uuid "a14567cf-496d-489a-b020-d22cbbb68552")
-	)
-	(text "CAMERA"
-		(exclude_from_sim no)
-		(at 306.07 24.13 0)
-		(effects
-			(font
-				(size 2.54 2.159)
-				(thickness 0.4318)
-				(bold yes)
-			)
-		)
-		(uuid "be4cf5ec-71c6-463a-bd8d-42f88e864473")
-	)
 	(text "PD LED"
 		(exclude_from_sim no)
 		(at 233.68 76.2 0)
@@ -12789,6 +13152,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c64b6d6-9831-4ea7-bd30-37e157233972")
+	)
+	(junction
+		(at 445.77 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f582568-0936-42e0-8853-ba09d9fc47c6")
 	)
 	(junction
 		(at 422.91 124.46)
@@ -12875,12 +13244,6 @@
 		(uuid "b10442d6-5003-4f3a-a5db-a9f0bcb0b862")
 	)
 	(junction
-		(at 372.11 349.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b158beb0-eb71-4c26-a76a-7d7bfe84351f")
-	)
-	(junction
 		(at 334.01 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12923,6 +13286,12 @@
 		(uuid "cd9510c1-1c2d-48cb-93e0-726dc001cd9f")
 	)
 	(junction
+		(at 427.99 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfed18c5-8055-457b-9752-0039939001c9")
+	)
+	(junction
 		(at 471.17 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12945,12 +13314,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddaf71ad-5b97-4b40-b9be-e9c8a347dde3")
-	)
-	(junction
-		(at 372.11 356.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dee0f5d2-444f-4a20-9cb0-b4c584a2b207")
 	)
 	(junction
 		(at 233.68 251.46)
@@ -13000,35 +13363,33 @@
 		(color 0 0 0 0)
 		(uuid "ff321972-4786-495a-a14b-bcaff8561d4b")
 	)
-	(wire
-		(pts
-			(xy 346.71 354.33) (xy 326.39 354.33)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "023d704c-4002-48b6-a362-ea98528cea21")
+	(no_connect
+		(at 370.84 149.86)
+		(uuid "13712c57-16c0-40c0-8fee-557bc675b27b")
 	)
-	(wire
-		(pts
-			(xy 45.72 200.66) (xy 71.12 200.66)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "02a1327a-d8e8-4fbe-9956-32d699349b48")
+	(no_connect
+		(at 438.15 162.56)
+		(uuid "2e96262b-35f9-4a57-a1c4-1afc58e6a231")
 	)
-	(wire
-		(pts
-			(xy 346.71 367.03) (xy 326.39 367.03)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "02fecaad-98bd-4d3c-9e08-c7ec39b8becf")
+	(no_connect
+		(at 438.15 152.4)
+		(uuid "40ef1423-0f9c-40d6-8cb1-608d741cfe6c")
+	)
+	(no_connect
+		(at 438.15 154.94)
+		(uuid "4102c5fd-f653-4801-a901-1b1ac0a4e25f")
+	)
+	(no_connect
+		(at 438.15 160.02)
+		(uuid "a21441d9-0860-4aa9-a64c-2d6e60b973c1")
+	)
+	(no_connect
+		(at 438.15 157.48)
+		(uuid "ab0d8616-b840-42c3-9399-33d5aebe380f")
+	)
+	(no_connect
+		(at 407.67 160.02)
+		(uuid "f1b43c94-f01f-46c3-b642-3fcd89cc236c")
 	)
 	(wire
 		(pts
@@ -13049,16 +13410,6 @@
 			(type solid)
 		)
 		(uuid "03aaa916-3abb-40de-8442-b93e023fbf01")
-	)
-	(wire
-		(pts
-			(xy 354.33 349.25) (xy 372.11 349.25)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "03c726b7-a08a-4b8f-ac04-a6ac51202b03")
 	)
 	(wire
 		(pts
@@ -13099,16 +13450,6 @@
 			(type solid)
 		)
 		(uuid "081210cb-4f83-4af4-a905-4bc43382d976")
-	)
-	(wire
-		(pts
-			(xy 311.15 53.34) (xy 318.77 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a417010-8773-4535-8a37-884b91177f60")
 	)
 	(wire
 		(pts
@@ -13262,6 +13603,16 @@
 	)
 	(wire
 		(pts
+			(xy 438.15 149.86) (xy 443.23 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "119b7987-f448-42d0-9253-e302c05a31cd")
+	)
+	(wire
+		(pts
 			(xy 31.75 200.66) (xy 31.75 205.74)
 		)
 		(stroke
@@ -13269,16 +13620,6 @@
 			(type default)
 		)
 		(uuid "140a79a6-d6b1-461b-9fc5-fe21bfcf6b03")
-	)
-	(wire
-		(pts
-			(xy 326.39 349.25) (xy 326.39 344.17)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "141204ea-c1e5-4470-a465-4a3ecdd12299")
 	)
 	(wire
 		(pts
@@ -13292,23 +13633,13 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 210.82) (xy 71.12 210.82)
+			(xy 407.67 134.62) (xy 402.59 134.62)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "15501f13-7a87-471d-8bc6-30553552dfdb")
-	)
-	(wire
-		(pts
-			(xy 354.33 361.95) (xy 372.11 361.95)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "15843280-1c1c-45f4-8c44-f10b14f90176")
+		(uuid "155b9635-9c5b-4610-882f-3b57e2312b73")
 	)
 	(wire
 		(pts
@@ -13339,16 +13670,6 @@
 			(type solid)
 		)
 		(uuid "175a2132-99ae-4f82-85c4-c429c887eb67")
-	)
-	(wire
-		(pts
-			(xy 287.02 38.1) (xy 298.45 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17c6ea76-36fc-42bf-89be-09a92285777f")
 	)
 	(wire
 		(pts
@@ -13692,6 +14013,16 @@
 	)
 	(wire
 		(pts
+			(xy 440.69 180.34) (xy 445.77 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31096b86-e550-4d33-895a-9d2402804cc0")
+	)
+	(wire
+		(pts
 			(xy 71.12 154.94) (xy 58.42 154.94)
 		)
 		(stroke
@@ -13722,13 +14053,13 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 369.57) (xy 346.71 369.57)
+			(xy 427.99 180.34) (xy 422.91 180.34)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "345b3cb4-1ece-418d-9050-e59fdb94aa3d")
+		(uuid "33bc9b15-4b14-414b-938e-cd553f4ded6e")
 	)
 	(wire
 		(pts
@@ -13822,16 +14153,6 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 43.18) (xy 298.45 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3828d04e-36a4-4328-9288-71a8736779ca")
-	)
-	(wire
-		(pts
 			(xy 170.18 106.68) (xy 165.1 106.68)
 		)
 		(stroke
@@ -13842,16 +14163,6 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 361.95) (xy 326.39 361.95)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "38a00dee-f8ad-421c-868b-b5259ef5b8a4")
-	)
-	(wire
-		(pts
 			(xy 252.73 31.75) (xy 247.65 31.75)
 		)
 		(stroke
@@ -13859,16 +14170,6 @@
 			(type solid)
 		)
 		(uuid "38d28cfa-8c7d-4530-8c50-edc2d0ea05fc")
-	)
-	(wire
-		(pts
-			(xy 290.83 55.88) (xy 298.45 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3aa39a45-8a5c-4da5-8778-a64ffba45d27")
 	)
 	(wire
 		(pts
@@ -14012,6 +14313,16 @@
 	)
 	(wire
 		(pts
+			(xy 438.15 137.16) (xy 443.23 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45717179-b013-4cdb-9936-b68253cb7353")
+	)
+	(wire
+		(pts
 			(xy 33.02 167.64) (xy 33.02 165.1)
 		)
 		(stroke
@@ -14019,16 +14330,6 @@
 			(type solid)
 		)
 		(uuid "470e2a99-3771-4bba-93bb-54785c8a18a9")
-	)
-	(wire
-		(pts
-			(xy 346.71 356.87) (xy 326.39 356.87)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "474c8c4f-681e-4459-9397-d55a29a2db04")
 	)
 	(wire
 		(pts
@@ -14050,26 +14351,6 @@
 		)
 		(uuid "4987ddb9-aff6-48fd-b276-3e86ba88cf40")
 	)
-	(wire
-		(pts
-			(xy 326.39 359.41) (xy 346.71 359.41)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4a6ab718-9692-4b26-8544-7dbc37af795b")
-	)
-	(wire
-		(pts
-			(xy 372.11 364.49) (xy 354.33 364.49)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4ba24233-56f2-4691-bed0-8b1fc4d5d4c5")
-	)
 	(polyline
 		(pts
 			(xy 215.9 195.58) (xy 215.9 91.44)
@@ -14079,16 +14360,6 @@
 			(type solid)
 		)
 		(uuid "4bd677ec-154f-4762-9ac8-1defa545476d")
-	)
-	(wire
-		(pts
-			(xy 311.15 40.64) (xy 318.77 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4be48ac0-f9db-449a-b348-663192fd0c1e")
 	)
 	(polyline
 		(pts
@@ -14109,16 +14380,6 @@
 			(type solid)
 		)
 		(uuid "4d281023-20b1-4c26-8216-1a832b4a3ad6")
-	)
-	(wire
-		(pts
-			(xy 311.15 38.1) (xy 318.77 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e079f26-a2f1-49c2-89c8-0ea0d5dd876d")
 	)
 	(wire
 		(pts
@@ -14159,16 +14420,6 @@
 			(type solid)
 		)
 		(uuid "51e74e2f-eff0-42b9-ab7a-b0ae35dac1d5")
-	)
-	(wire
-		(pts
-			(xy 311.15 35.56) (xy 328.93 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "528274f9-a67b-47f9-87d4-58a2a1bf8d78")
 	)
 	(wire
 		(pts
@@ -14232,13 +14483,13 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 351.79) (xy 372.11 351.79)
+			(xy 363.22 165.1) (xy 368.3 165.1)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "5c14e600-4db2-433a-9d8e-f9f079c00fa2")
+		(uuid "5b5a093d-b929-40b7-b788-e0ac296ba991")
 	)
 	(wire
 		(pts
@@ -14322,6 +14573,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 172.72) (xy 398.78 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "659b2669-a3ae-4500-ae59-8a6631d4115c")
+	)
+	(wire
+		(pts
 			(xy 236.22 227.33) (xy 257.81 227.33)
 		)
 		(stroke
@@ -14332,6 +14593,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 208.28) (xy 66.04 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662ebec8-35b1-49a7-8a1e-1146748ed4e7")
+	)
+	(wire
+		(pts
 			(xy 58.42 154.94) (xy 58.42 152.4)
 		)
 		(stroke
@@ -14339,16 +14610,6 @@
 			(type solid)
 		)
 		(uuid "67513dcf-eaa9-409e-aa37-d946cec68a4c")
-	)
-	(wire
-		(pts
-			(xy 354.33 369.57) (xy 372.11 369.57)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "6761d2bc-8267-4278-ac70-41056b4a4b24")
 	)
 	(polyline
 		(pts
@@ -14412,16 +14673,6 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 45.72) (xy 298.45 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e33bc9a-608e-47b0-a0c8-0b881bc160b5")
-	)
-	(wire
-		(pts
 			(xy 45.72 190.5) (xy 71.12 190.5)
 		)
 		(stroke
@@ -14462,16 +14713,6 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 33.02) (xy 287.02 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7245eefe-a7cc-4b65-979d-3f9ab0b03445")
-	)
-	(wire
-		(pts
 			(xy 471.17 262.89) (xy 481.33 262.89)
 		)
 		(stroke
@@ -14499,16 +14740,6 @@
 			(type solid)
 		)
 		(uuid "7429c8c1-5068-45df-9c16-8e5ea9ae1d2c")
-	)
-	(wire
-		(pts
-			(xy 290.83 48.26) (xy 298.45 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75c8e9e3-d4b8-4fd1-91f6-02aa53d7caa8")
 	)
 	(wire
 		(pts
@@ -14559,16 +14790,6 @@
 			(type solid)
 		)
 		(uuid "7a93d5ad-6e65-4f00-a6da-86c5ae1290a8")
-	)
-	(wire
-		(pts
-			(xy 372.11 356.87) (xy 407.67 356.87)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7aa89c77-7de8-4d0c-804b-efd3fc8343ee")
 	)
 	(wire
 		(pts
@@ -14692,6 +14913,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 205.74) (xy 66.04 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "868c48a2-f0ee-4b33-926e-cf605703d061")
+	)
+	(wire
+		(pts
 			(xy 48.26 180.34) (xy 48.26 177.8)
 		)
 		(stroke
@@ -14752,16 +14983,6 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 50.8) (xy 298.45 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "898a735d-c065-4ea8-8dac-c90f014066b7")
-	)
-	(wire
-		(pts
 			(xy 231.14 201.93) (xy 231.14 204.47)
 		)
 		(stroke
@@ -14769,6 +14990,16 @@
 			(type solid)
 		)
 		(uuid "8c08acd3-ad1d-42c3-96a4-02a67588b6bf")
+	)
+	(wire
+		(pts
+			(xy 370.84 144.78) (xy 365.76 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c54bfc5-33d9-4ea6-baa3-6a64795c0c5c")
 	)
 	(wire
 		(pts
@@ -14789,6 +15020,16 @@
 			(type solid)
 		)
 		(uuid "8ca320f5-3ab2-414e-aad3-abf1c622b1e5")
+	)
+	(wire
+		(pts
+			(xy 388.62 165.1) (xy 391.16 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cd2db2f-aa0e-4d4d-83db-541ded777533")
 	)
 	(wire
 		(pts
@@ -14862,16 +15103,6 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 35.56) (xy 298.45 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8faa3a08-5ca5-44aa-9177-723f3728b82f")
-	)
-	(wire
-		(pts
 			(xy 53.34 177.8) (xy 48.26 177.8)
 		)
 		(stroke
@@ -14942,16 +15173,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 50.8) (xy 318.77 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a971f36-a128-4cb3-9a16-69b60ac40bb1")
-	)
-	(wire
-		(pts
 			(xy 243.84 138.43) (xy 252.73 138.43)
 		)
 		(stroke
@@ -14999,16 +15220,6 @@
 			(type solid)
 		)
 		(uuid "9c20bb9b-2d66-4cba-a14c-697ef44def96")
-	)
-	(wire
-		(pts
-			(xy 354.33 367.03) (xy 372.11 367.03)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "9c36512c-c55f-4e03-9547-aae04250a350")
 	)
 	(wire
 		(pts
@@ -15182,16 +15393,6 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 359.41) (xy 372.11 359.41)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a214ad73-984c-4995-bbdb-01c611fac399")
-	)
-	(wire
-		(pts
 			(xy 49.53 59.69) (xy 52.07 59.69)
 		)
 		(stroke
@@ -15232,6 +15433,16 @@
 	)
 	(wire
 		(pts
+			(xy 359.41 356.87) (xy 407.67 356.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4c98b5b-9a7c-4bf8-a064-36044a4df4d1")
+	)
+	(wire
+		(pts
 			(xy 107.95 38.1) (xy 107.95 36.83)
 		)
 		(stroke
@@ -15262,6 +15473,16 @@
 	)
 	(wire
 		(pts
+			(xy 407.67 157.48) (xy 402.59 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f83b81-25dd-438e-bd0b-e81f045a1033")
+	)
+	(wire
+		(pts
 			(xy 481.33 250.19) (xy 481.33 247.65)
 		)
 		(stroke
@@ -15269,16 +15490,6 @@
 			(type solid)
 		)
 		(uuid "a7ca7bd9-3c57-4161-bce2-03d751ab6a5e")
-	)
-	(wire
-		(pts
-			(xy 45.72 208.28) (xy 71.12 208.28)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a85c6bc1-659e-42ce-9ec9-31b4ac6f2c55")
 	)
 	(wire
 		(pts
@@ -15302,13 +15513,23 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 48.26) (xy 318.77 48.26)
+			(xy 378.46 165.1) (xy 381 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad9aae21-830c-47ab-b416-ec539f67ddcb")
+		(uuid "a8a2dee0-b4a1-47bf-a23e-6927c3a452fe")
+	)
+	(wire
+		(pts
+			(xy 71.12 200.66) (xy 66.04 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaba1a46-3792-48f1-a17a-c264b84014be")
 	)
 	(wire
 		(pts
@@ -15362,13 +15583,13 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 354.33) (xy 372.11 354.33)
+			(xy 438.15 134.62) (xy 443.23 134.62)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "b072b16d-d533-42ae-b18c-93903467140b")
+		(uuid "aff73e57-5502-4a80-a291-80793b01203a")
 	)
 	(wire
 		(pts
@@ -15399,16 +15620,6 @@
 			(type default)
 		)
 		(uuid "b16209cd-d179-481f-aa5f-4db318c9f51b")
-	)
-	(wire
-		(pts
-			(xy 71.12 198.12) (xy 45.72 198.12)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "b180de01-90e6-4ac8-8765-e4211c61b521")
 	)
 	(wire
 		(pts
@@ -15492,16 +15703,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 45.72) (xy 318.77 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4108a8c-45dd-4f22-9a7c-9392e087a296")
-	)
-	(wire
-		(pts
 			(xy 427.99 300.99) (xy 417.83 300.99)
 		)
 		(stroke
@@ -15552,16 +15753,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 205.74) (xy 71.12 205.74)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "b8c7ea05-b0ce-4262-9363-dfca22e54a16")
-	)
-	(wire
-		(pts
 			(xy 491.49 257.81) (xy 488.95 257.81)
 		)
 		(stroke
@@ -15602,13 +15793,13 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 364.49) (xy 346.71 364.49)
+			(xy 370.84 152.4) (xy 365.76 152.4)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "bdd49c65-8fb5-42f6-b9b5-f88a1bc40e1f")
+		(uuid "bd8d8f5c-137b-4d7d-8158-ddb047c0629c")
 	)
 	(wire
 		(pts
@@ -15632,23 +15823,13 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 356.87) (xy 372.11 356.87)
+			(xy 71.12 203.2) (xy 66.04 203.2)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "c0a27624-20c0-4d9d-ae7e-d21517b67868")
-	)
-	(wire
-		(pts
-			(xy 422.91 124.46) (xy 427.99 124.46)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c16744f6-55d2-4f34-bc03-007c972af892")
+		(uuid "c098568c-b7b3-4407-b723-4bc407535477")
 	)
 	(wire
 		(pts
@@ -15669,6 +15850,16 @@
 			(type solid)
 		)
 		(uuid "c18e231b-da57-498c-be30-7fb1cb6ffa6f")
+	)
+	(wire
+		(pts
+			(xy 71.12 198.12) (xy 66.04 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1e0420c-a2d0-4bda-a016-379250e366e3")
 	)
 	(wire
 		(pts
@@ -15772,13 +15963,23 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 349.25) (xy 326.39 349.25)
+			(xy 407.67 142.24) (xy 402.59 142.24)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "c630c05d-8fad-4051-8d8f-a8af30eef306")
+		(uuid "c722c922-5ac4-47bf-8eee-9d053e9209ba")
+	)
+	(wire
+		(pts
+			(xy 407.67 137.16) (xy 402.59 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c833485b-1ef3-4095-8be8-c3d27065708d")
 	)
 	(wire
 		(pts
@@ -15832,16 +16033,6 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 40.64) (xy 298.45 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca1b5fc0-84ee-4e78-8f87-042cbbe91721")
-	)
-	(wire
-		(pts
 			(xy 468.63 313.69) (xy 458.47 313.69)
 		)
 		(stroke
@@ -15892,13 +16083,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 203.2) (xy 45.72 203.2)
+			(xy 433.07 180.34) (xy 427.99 180.34)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "cdddaa02-5d79-4c48-87ea-0b813b089637")
+		(uuid "cfdb90cb-d152-43ac-b254-8e6532371256")
 	)
 	(wire
 		(pts
@@ -15972,6 +16163,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 175.26) (xy 398.78 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d35f4d6b-ae15-4a9c-a8f7-da7709341733")
+	)
+	(wire
+		(pts
 			(xy 430.53 252.73) (xy 430.53 262.89)
 		)
 		(stroke
@@ -15982,6 +16183,16 @@
 	)
 	(wire
 		(pts
+			(xy 407.67 154.94) (xy 402.59 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3e34577-2600-4cb2-b3f8-fc5dd754d2a7")
+	)
+	(wire
+		(pts
 			(xy 425.45 308.61) (xy 427.99 308.61)
 		)
 		(stroke
@@ -15989,16 +16200,6 @@
 			(type solid)
 		)
 		(uuid "d3e57106-8ad2-4819-8471-3efe56091123")
-	)
-	(wire
-		(pts
-			(xy 346.71 351.79) (xy 326.39 351.79)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d3fb46a9-478b-4741-8545-6654568a7dd9")
 	)
 	(wire
 		(pts
@@ -16072,6 +16273,16 @@
 	)
 	(wire
 		(pts
+			(xy 391.16 147.32) (xy 396.24 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d95092e5-076e-477c-92a9-f90f0761249f")
+	)
+	(wire
+		(pts
 			(xy 226.06 68.58) (xy 223.52 68.58)
 		)
 		(stroke
@@ -16079,16 +16290,6 @@
 			(type solid)
 		)
 		(uuid "d98254b3-f069-4648-845c-64a289d5f299")
-	)
-	(wire
-		(pts
-			(xy 290.83 53.34) (xy 298.45 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d996f45c-e35c-4e3a-97fb-d0edba8ad64e")
 	)
 	(wire
 		(pts
@@ -16212,6 +16413,26 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 210.82) (xy 66.04 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e00e7f45-8764-4262-9eef-6cb58b875dc7")
+	)
+	(wire
+		(pts
+			(xy 398.78 118.11) (xy 398.78 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0c8154f-ce29-4d84-875c-ded0f26ba00f")
+	)
+	(wire
+		(pts
 			(xy 45.72 149.86) (xy 45.72 165.1)
 		)
 		(stroke
@@ -16272,16 +16493,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 55.88) (xy 318.77 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3c8008f-35f4-4ede-b7b1-bfb99a24de56")
-	)
-	(wire
-		(pts
 			(xy 450.85 124.46) (xy 448.31 124.46)
 		)
 		(stroke
@@ -16289,6 +16500,16 @@
 			(type solid)
 		)
 		(uuid "e40cc4ec-dbbc-4ae1-b8e0-687d0782a16e")
+	)
+	(wire
+		(pts
+			(xy 370.84 147.32) (xy 365.76 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4871129-13b8-4400-8a5c-4e0a0b7c6e59")
 	)
 	(wire
 		(pts
@@ -16372,6 +16593,16 @@
 	)
 	(wire
 		(pts
+			(xy 391.16 149.86) (xy 396.24 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaff53d7-4455-4f2b-9a2b-ad7b7497f6f6")
+	)
+	(wire
+		(pts
 			(xy 181.61 50.8) (xy 181.61 52.07)
 		)
 		(stroke
@@ -16379,6 +16610,16 @@
 			(type default)
 		)
 		(uuid "ec7713b5-1d78-42a7-9c3b-49d7a2482a83")
+	)
+	(wire
+		(pts
+			(xy 407.67 139.7) (xy 402.59 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecc656ed-e2dc-47a1-9da4-62dad9b29d4e")
 	)
 	(wire
 		(pts
@@ -16452,6 +16693,16 @@
 	)
 	(wire
 		(pts
+			(xy 445.77 180.34) (xy 450.85 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f32aa501-4311-4df8-a02b-64510e091b09")
+	)
+	(wire
+		(pts
 			(xy 71.12 226.06) (xy 53.34 226.06)
 		)
 		(stroke
@@ -16519,16 +16770,6 @@
 			(type solid)
 		)
 		(uuid "f8c8c763-53e0-4c94-ad67-d067c790af4c")
-	)
-	(wire
-		(pts
-			(xy 311.15 43.18) (xy 318.77 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9c525dd-0d01-4d45-add7-76b7657800c4")
 	)
 	(wire
 		(pts
@@ -16680,16 +16921,6 @@
 		)
 		(uuid "097998a8-1ec6-4548-a457-95e6bce7702e")
 	)
-	(label "SDA"
-		(at 170.18 208.28 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "099ab55d-6871-4dd8-a210-7ee650c9fcb6")
-	)
 	(label "~{RESET}"
 		(at 60.96 154.94 0)
 		(effects
@@ -16699,16 +16930,6 @@
 			(justify left bottom)
 		)
 		(uuid "17b66602-9cf8-4ec0-adba-1f28c44bf768")
-	)
-	(label "SDA"
-		(at 290.83 43.18 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "185fd3d8-cf09-475a-972e-997ccad496ea")
 	)
 	(label "~{RESET}"
 		(at 172.72 109.22 0)
@@ -16740,16 +16961,6 @@
 		)
 		(uuid "1d725c93-25a3-4765-b6bf-d182a7b1d456")
 	)
-	(label "D4"
-		(at 318.77 45.72 180)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right bottom)
-		)
-		(uuid "1de2233c-1b68-4c2b-b06b-fe9e627d68e6")
-	)
 	(label "A0"
 		(at 427.99 124.46 180)
 		(effects
@@ -16770,16 +16981,6 @@
 		)
 		(uuid "24050aeb-b863-4896-a2a2-ad06f13843fe")
 	)
-	(label "RT"
-		(at 170.18 213.36 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "2484e410-dd0a-43cc-a316-fac75cbe2ef2")
-	)
 	(label "A2"
 		(at 53.34 228.6 0)
 		(effects
@@ -16790,15 +16991,15 @@
 		)
 		(uuid "254f2f37-2803-4051-baff-c6acd87b2f24")
 	)
-	(label "PD"
-		(at 246.38 81.28 0)
+	(label "CAN_CS"
+		(at 66.04 200.66 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "2c29bc45-b591-40ab-bd4c-3d6fddc14c4f")
+		(uuid "2c3ab93c-85d2-46aa-831a-66bdf66fb9c6")
 	)
 	(label "QSPI_DATA[2]"
 		(at 283.21 173.99 0)
@@ -16810,6 +17011,16 @@
 		)
 		(uuid "33703e14-030f-43e8-b393-49a7fbee4065")
 	)
+	(label "CAN_SCK"
+		(at 66.04 203.2 180)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "3d564ac4-d472-47b3-9d2f-8c9e5302841f")
+	)
 	(label "GPIO26"
 		(at 243.84 138.43 0)
 		(effects
@@ -16819,26 +17030,6 @@
 			(justify left bottom)
 		)
 		(uuid "44f91219-155f-46e6-a384-f9b86b099018")
-	)
-	(label "D6"
-		(at 170.18 165.1 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "468050ac-4543-4a4f-b8e1-82da42051352")
-	)
-	(label "PD"
-		(at 328.93 35.56 180)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right bottom)
-		)
-		(uuid "46fa6dc5-c00a-4bde-bb53-8208f58cbfab")
 	)
 	(label "PSRAM_CS"
 		(at 53.34 238.76 0)
@@ -16860,15 +17051,15 @@
 		)
 		(uuid "4a9929ec-d835-4b21-be8d-1d09918e231d")
 	)
-	(label "D8"
-		(at 170.18 170.18 0)
+	(label "CAN_STBY"
+		(at 365.76 152.4 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "4be47960-5178-4f24-80ac-c8acebfec0a3")
+		(uuid "4bc7ee51-c90f-42a0-b905-bf4baf0ba92f")
 	)
 	(label "PSRAM_CS"
 		(at 243.84 148.59 0)
@@ -16880,15 +17071,15 @@
 		)
 		(uuid "4d14db7a-e10d-4d1c-a72d-ffca2797295c")
 	)
-	(label "SCL"
-		(at 170.18 210.82 0)
+	(label "CAN_RX"
+		(at 443.23 134.62 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "4e119acb-7daa-4830-a3cb-e7087a00f253")
+		(uuid "4e14c7f6-1eb1-4bca-bb64-8bbe9784c42f")
 	)
 	(label "A0"
 		(at 53.34 223.52 0)
@@ -16899,16 +17090,6 @@
 			(justify left bottom)
 		)
 		(uuid "51d10f12-aa86-4f15-bd5f-685d0832111c")
-	)
-	(label "D9"
-		(at 170.18 167.64 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "5275efdc-e3fe-400b-8908-5a07e50a4207")
 	)
 	(label "GPIO26"
 		(at 172.72 226.06 0)
@@ -16930,15 +17111,15 @@
 		)
 		(uuid "550caad9-b7fd-493f-8231-48ad329df685")
 	)
-	(label "VS"
-		(at 170.18 180.34 0)
+	(label "CANL"
+		(at 388.62 175.26 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "553d2b1f-0340-49c7-be97-d6128d4852d0")
+		(uuid "564ecce3-e3c1-48ca-83f1-47d6d0a91fc2")
 	)
 	(label "QSPI_SCK"
 		(at 283.21 166.37 0)
@@ -16970,6 +17151,16 @@
 		)
 		(uuid "58ef0318-939d-43bd-8920-f860ef3363db")
 	)
+	(label "CAN_STBY"
+		(at 66.04 210.82 180)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "5d412cb9-c69b-4454-85e5-5380673fe962")
+	)
 	(label "CTS"
 		(at 170.18 203.2 0)
 		(effects
@@ -16980,15 +17171,15 @@
 		)
 		(uuid "5d769d97-3e4e-493d-9427-71da40fbf12f")
 	)
-	(label "HS"
-		(at 290.83 48.26 0)
+	(label "CAN_OSC1"
+		(at 422.91 180.34 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "5deb9fee-1b22-42db-bbbb-474073a3b138")
+		(uuid "5dbfed5b-a59c-4369-a609-a459f9441e7c")
 	)
 	(label "QSPI_CS"
 		(at 236.22 217.17 0)
@@ -17010,6 +17201,16 @@
 		)
 		(uuid "64c41fda-c1d5-4aa1-9a94-68a0a915833f")
 	)
+	(label "CANH"
+		(at 396.24 147.32 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "65d1cf2f-da67-4466-9e04-15c9b9d8e10b")
+	)
 	(label "XIN"
 		(at 66.04 187.96 0)
 		(effects
@@ -17020,45 +17221,25 @@
 		)
 		(uuid "68c67fbf-7b0b-4b34-a1de-4e5f293d0245")
 	)
-	(label "PD"
-		(at 170.18 215.9 0)
+	(label "CANL"
+		(at 396.24 149.86 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "6ec4b604-3905-4964-9832-8bdb70c4613d")
+		(uuid "740bd724-a54d-41d7-9199-a8a107f6fc01")
 	)
-	(label "HS"
-		(at 170.18 177.8 0)
+	(label "CAN_TX"
+		(at 365.76 144.78 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "7711c4b1-e40d-4069-9267-4b7b8c1d6920")
-	)
-	(label "D5"
-		(at 170.18 157.48 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "79827a18-34ef-456d-8bf3-46437e575be1")
-	)
-	(label "D9"
-		(at 290.83 55.88 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "7d073a63-15d1-4fe8-b36e-9e239ec52d7a")
+		(uuid "7768682c-6702-4e38-8ac0-33a518f347ae")
 	)
 	(label "A2"
 		(at 247.65 41.91 0)
@@ -17070,6 +17251,16 @@
 		)
 		(uuid "801c887d-5cb3-4bdf-b2cd-3004f0b9f481")
 	)
+	(label "CAN_MISO"
+		(at 66.04 198.12 180)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "825cf118-e0d6-46f1-9720-99e87f60ecf0")
+	)
 	(label "USBBOOT"
 		(at 246.38 251.46 0)
 		(effects
@@ -17079,16 +17270,6 @@
 			(justify left bottom)
 		)
 		(uuid "849c9007-f62e-4c4b-834c-40c5d7044fcc")
-	)
-	(label "D7"
-		(at 170.18 162.56 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "85d371d0-ef25-45f1-acbb-1a906c621a40")
 	)
 	(label "RX"
 		(at 293.37 71.12 0)
@@ -17130,6 +17311,16 @@
 		)
 		(uuid "8886c1db-44e5-4f48-9c4f-db8b688c7ec3")
 	)
+	(label "CAN_SCK"
+		(at 402.59 142.24 180)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "8bb32ed9-dc3a-4379-84fc-63353e74eea4")
+	)
 	(label "QSPI_DATA[1]"
 		(at 283.21 171.45 0)
 		(effects
@@ -17140,25 +17331,25 @@
 		)
 		(uuid "9114fd29-3005-4978-8875-f3f93b7b1b57")
 	)
-	(label "RT"
-		(at 318.77 38.1 180)
+	(label "CAN_CS"
+		(at 402.59 139.7 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify right bottom)
 		)
-		(uuid "93432c5e-2f4b-45b4-8568-0f0a1880750f")
+		(uuid "96490eb2-5210-4298-abe2-871650edd0c5")
 	)
-	(label "XC"
-		(at 170.18 175.26 0)
+	(label "CAN_OSC2"
+		(at 450.85 180.34 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "95603d07-bade-42e6-9d25-97e8f7d2268c")
+		(uuid "9683f24f-481a-490c-8e25-539eb5c04bfb")
 	)
 	(label "QSPI_DATA[3]"
 		(at 283.21 130.81 0)
@@ -17190,6 +17381,26 @@
 		)
 		(uuid "9a26a366-6d0d-4f5e-8bcc-b6070759a7da")
 	)
+	(label "CAN_OSC1"
+		(at 402.59 157.48 180)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "9adfe896-df39-43d1-8de8-e56b4b55a299")
+	)
+	(label "CANH"
+		(at 363.22 165.1 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b56eb53-b79b-44c2-902b-1422d9d202e5")
+	)
 	(label "QSPI_SCK"
 		(at 53.34 248.92 0)
 		(effects
@@ -17199,16 +17410,6 @@
 			(justify left bottom)
 		)
 		(uuid "9bb5b71d-16b2-4980-8500-da2e2ff94e01")
-	)
-	(label "PC"
-		(at 170.18 182.88 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "a0c2b321-7ba9-4b01-8c5f-31735915c849")
 	)
 	(label "QSPI_DATA[2]"
 		(at 283.21 128.27 0)
@@ -17270,15 +17471,35 @@
 		)
 		(uuid "a82735bd-4ab6-468a-9c83-d507ebb29a6a")
 	)
-	(label "SCL"
-		(at 290.83 40.64 0)
+	(label "CAN_MOSI"
+		(at 402.59 134.62 180)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "a89b0554-5d7b-40f0-9629-b86c997c9f33")
+	)
+	(label "CAN_INT"
+		(at 443.23 149.86 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "ace80921-7268-4f12-8e88-631b0b104333")
+		(uuid "ac2fdf75-3f78-49ce-899a-8ebf445109f3")
+	)
+	(label "CANL"
+		(at 391.16 165.1 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "ada2b2c5-fbed-44b8-b8f3-5b6980559b9b")
 	)
 	(label "QSPI_DATA[1]"
 		(at 236.22 224.79 0)
@@ -17300,16 +17521,6 @@
 		)
 		(uuid "b3ce3b8b-20aa-47d1-afc4-4e6e3673f377")
 	)
-	(label "VS"
-		(at 290.83 45.72 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "b3fc1bac-c926-40de-aea2-9d4aab3885eb")
-	)
 	(label "QSPI_DATA[1]"
 		(at 283.21 125.73 0)
 		(effects
@@ -17319,16 +17530,6 @@
 			(justify left bottom)
 		)
 		(uuid "b4fb8133-18bd-435a-9d29-0b6f8d571a70")
-	)
-	(label "D2"
-		(at 170.18 154.94 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "b83dde23-0a87-4ec4-9662-dc0b59b894aa")
 	)
 	(label "QSPI_DATA[0]"
 		(at 283.21 168.91 0)
@@ -17350,35 +17551,15 @@
 		)
 		(uuid "c12d9623-2d1d-49fb-9fa1-8bea447a09d9")
 	)
-	(label "D4"
-		(at 170.18 160.02 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "c4fdab2c-cdde-4b70-8342-f8f79d3734af")
-	)
-	(label "D2"
-		(at 318.77 40.64 180)
+	(label "CAN_RX"
+		(at 365.76 147.32 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify right bottom)
 		)
-		(uuid "c66ca804-579e-40c7-824f-b429a7f9eaa5")
-	)
-	(label "D8"
-		(at 318.77 55.88 180)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right bottom)
-		)
-		(uuid "c744455e-368f-45aa-853c-1ae82ed8a6f5")
+		(uuid "c1adb6c8-0652-41ce-810c-afcabb57a015")
 	)
 	(label "QSPI_DATA[2]"
 		(at 236.22 227.33 0)
@@ -17410,16 +17591,6 @@
 		)
 		(uuid "c94e0357-1a0e-4216-a280-8af7a01e14aa")
 	)
-	(label "D5"
-		(at 318.77 48.26 180)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right bottom)
-		)
-		(uuid "c9e85a07-7495-496f-9770-fce372aa71f4")
-	)
 	(label "XOUT"
 		(at 63.5 190.5 0)
 		(effects
@@ -17440,25 +17611,25 @@
 		)
 		(uuid "cbd285f8-d7e0-4c33-84c7-bc6e3f8da10f")
 	)
-	(label "D6"
-		(at 318.77 50.8 180)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right bottom)
-		)
-		(uuid "d0b34f0e-5ed2-40f2-a105-eb3a7310a929")
-	)
-	(label "PC"
-		(at 290.83 50.8 0)
+	(label "CAN_TX"
+		(at 443.23 137.16 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "d377129a-337b-40a0-bb67-f4f790e888c5")
+		(uuid "cd866d2d-0cbd-442b-a1bb-06110b3fa6fb")
+	)
+	(label "CAN_INT"
+		(at 66.04 208.28 180)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "d2c04ca9-bbd9-450f-ae36-25eca7fd0374")
 	)
 	(label "RX"
 		(at 170.18 200.66 0)
@@ -17490,6 +17661,16 @@
 		)
 		(uuid "d7d77578-c1a9-40f6-8e0b-be4b287e33fa")
 	)
+	(label "CAN_MISO"
+		(at 402.59 137.16 180)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "d8f01e44-196f-4f86-b4fa-4b76f5a6934d")
+	)
 	(label "QSPI_DATA[3]"
 		(at 283.21 176.53 0)
 		(effects
@@ -17499,6 +17680,16 @@
 			(justify left bottom)
 		)
 		(uuid "d91b27cc-021d-4535-a063-a40ff20b122b")
+	)
+	(label "CAN_MOSI"
+		(at 66.04 205.74 180)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "da5a4cbc-2ecb-451c-bdfb-b817418181d5")
 	)
 	(label "QSPI_DATA[0]"
 		(at 283.21 123.19 0)
@@ -17520,15 +17711,25 @@
 		)
 		(uuid "ddd02c64-0370-4ef9-97a8-b800640f1db1")
 	)
-	(label "D3"
-		(at 170.18 152.4 0)
+	(label "CAN_STBY"
+		(at 398.78 115.57 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "de1ea86d-fe09-4449-a26b-fc20d85eaec4")
+		(uuid "e36be8ea-d7f9-43fb-9b04-1ccc3141b416")
+	)
+	(label "CANH"
+		(at 388.62 172.72 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea1f9d86-1193-4e79-a29c-4f49d6616312")
 	)
 	(label "USBBOOT"
 		(at 172.72 220.98 0)
@@ -17550,26 +17751,6 @@
 		)
 		(uuid "eb937cbf-7ab8-40dd-b847-8510532b9756")
 	)
-	(label "D3"
-		(at 318.77 43.18 180)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right bottom)
-		)
-		(uuid "ee7d710f-062e-4d3d-9a84-998df6d6cd1f")
-	)
-	(label "D7"
-		(at 318.77 53.34 180)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right bottom)
-		)
-		(uuid "f443c9d0-9bb6-4bd2-9bda-d6d91a9ab224")
-	)
 	(label "QSPI_CS"
 		(at 53.34 251.46 0)
 		(effects
@@ -17580,15 +17761,15 @@
 		)
 		(uuid "f96f597d-2e23-47d5-9001-7624ad5b2c50")
 	)
-	(label "XC"
-		(at 290.83 53.34 0)
+	(label "CAN_OSC2"
+		(at 402.59 154.94 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "fa6dd533-070a-4b7e-8e44-90ca107bdd5e")
+		(uuid "fa6f29f9-1101-466d-a007-11305b80209c")
 	)
 	(label "QSPI_CS"
 		(at 246.38 238.76 0)
@@ -17613,54 +17794,6 @@
 		(uuid "08bf9e07-7ce5-46c5-932c-3d18e693507d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 469.7655 295.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "DATA4"
-		(shape bidirectional)
-		(at 359.41 364.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "0b049448-91bd-4ab8-87f3-4c79c138121d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 368.936 364.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "DATA5"
-		(shape bidirectional)
-		(at 326.39 364.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "0bed6a8c-3537-40b2-a0aa-59f8c05e50c3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 335.916 364.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17744,6 +17877,54 @@
 			)
 		)
 	)
+	(global_label "DATA2"
+		(shape bidirectional)
+		(at 175.26 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "158b69a5-ee0b-4504-8b01-a9a9160a97de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.26 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "PCLK"
+		(shape bidirectional)
+		(at 175.26 182.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "1962ffe3-01f6-429d-aa8a-27dfb0cf9e3e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.26 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "INT_XCLK"
 		(shape bidirectional)
 		(at 430.53 356.87 180)
@@ -17768,7 +17949,7 @@
 			)
 		)
 	)
-	(global_label "~{RESET}"
+	(global_label "CAM_~{RESET}"
 		(shape bidirectional)
 		(at 417.83 328.93 0)
 		(fields_autoplaced yes)
@@ -17792,9 +17973,9 @@
 			)
 		)
 	)
-	(global_label "DATA8"
+	(global_label "DATA5"
 		(shape bidirectional)
-		(at 359.41 359.41 0)
+		(at 175.26 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17802,9 +17983,57 @@
 			)
 			(justify left)
 		)
-		(uuid "34a0a67b-30cb-4389-9536-5fb62e244638")
+		(uuid "31b9b288-a3f9-40ea-92ed-224ae214d9e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 368.936 359.41 0)
+			(at 175.26 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "PWDN"
+		(shape bidirectional)
+		(at 180.34 215.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "3c4ec132-1fe5-498d-9562-6464725e7182")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.34 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "DATA3"
+		(shape bidirectional)
+		(at 175.26 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "4a3c3c23-6b46-4ae0-bf91-825e16a6d7db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.26 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17840,9 +18069,9 @@
 			)
 		)
 	)
-	(global_label "PWDN"
+	(global_label "SCL"
 		(shape bidirectional)
-		(at 359.41 369.57 0)
+		(at 180.34 210.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17850,9 +18079,9 @@
 			)
 			(justify left)
 		)
-		(uuid "5eb08210-82f7-4cf5-a8d1-d86023e21169")
+		(uuid "5e748b7d-2789-43f5-913b-d6205dacc622")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 368.6397 369.57 0)
+			(at 180.34 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17888,57 +18117,9 @@
 			)
 		)
 	)
-	(global_label "DATA3"
-		(shape bidirectional)
-		(at 326.39 367.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "6af68aaf-3bb7-4938-918d-2eb15ba2e785")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 335.916 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "DATA6"
-		(shape bidirectional)
-		(at 359.41 361.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "8034c51b-0d56-407c-839d-7c8dc19ff6d6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 368.936 361.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "EXT_XCLK"
 		(shape bidirectional)
-		(at 359.41 356.87 0)
+		(at 175.26 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17946,9 +18127,57 @@
 			)
 			(justify left)
 		)
-		(uuid "82d3aa33-166e-472d-a43b-5cd8e8b703d9")
+		(uuid "60674551-13aa-45b9-a55d-154cd232c581")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 372.3142 356.87 0)
+			(at 175.26 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "DATA8"
+		(shape bidirectional)
+		(at 175.26 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "61224bcb-06b7-4058-9cf0-1802ebc7180a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.26 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "HSYNC"
+		(shape bidirectional)
+		(at 175.26 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "63ef74cc-ca1b-461e-8957-b587d1ef21db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.26 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18032,30 +18261,6 @@
 			)
 		)
 	)
-	(global_label "SCL"
-		(shape bidirectional)
-		(at 326.39 351.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "a5b6688e-ebd7-4248-bd9a-fdf314a703f3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 333.8416 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "DATA3"
 		(shape bidirectional)
 		(at 461.01 318.77 0)
@@ -18069,54 +18274,6 @@
 		(uuid "ad140840-5533-4bf8-902b-0539b4ab976d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 470.536 318.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "DATA9"
-		(shape bidirectional)
-		(at 326.39 359.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "af59ba3a-936f-4d9f-be5b-93c0b419cc6d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 335.916 359.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "DATA2"
-		(shape bidirectional)
-		(at 359.41 367.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "b2e93791-902c-41d4-82b1-b3adbca6303b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 368.936 367.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18152,9 +18309,9 @@
 			)
 		)
 	)
-	(global_label "PCLK"
+	(global_label "DATA4"
 		(shape bidirectional)
-		(at 326.39 356.87 0)
+		(at 175.26 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18162,9 +18319,9 @@
 			)
 			(justify left)
 		)
-		(uuid "be50558d-ecba-4ccf-b7ee-08091e33745c")
+		(uuid "bc6bfb58-afa1-405e-bca3-061689d4575d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 335.1455 356.87 0)
+			(at 175.26 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18200,9 +18357,9 @@
 			)
 		)
 	)
-	(global_label "HSYNC"
+	(global_label "DATA6"
 		(shape bidirectional)
-		(at 359.41 354.33 0)
+		(at 175.26 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18210,9 +18367,9 @@
 			)
 			(justify left)
 		)
-		(uuid "c09e9a2b-651f-44e8-8976-931fe734cf92")
+		(uuid "c72bd8c4-1895-4abf-8bca-10a222fa3641")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 369.5287 354.33 0)
+			(at 175.26 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18224,9 +18381,9 @@
 			)
 		)
 	)
-	(global_label "~{RESET}"
+	(global_label "DATA7"
 		(shape bidirectional)
-		(at 326.39 369.57 0)
+		(at 175.26 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18234,9 +18391,9 @@
 			)
 			(justify left)
 		)
-		(uuid "c6cac644-a066-4c44-a87b-2491c69f4b3b")
+		(uuid "c7355c61-eb1f-476c-8e7d-02a089b9160d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 336.0346 369.57 0)
+			(at 175.26 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18272,9 +18429,9 @@
 			)
 		)
 	)
-	(global_label "SDA"
+	(global_label "DATA9"
 		(shape bidirectional)
-		(at 359.41 351.79 0)
+		(at 175.26 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18282,9 +18439,9 @@
 			)
 			(justify left)
 		)
-		(uuid "ce534df0-7ed7-4ef5-9aba-500b412d9083")
+		(uuid "d0698b3b-ec64-4d59-9872-c94f46c30772")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 366.9209 351.79 0)
+			(at 175.26 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18309,6 +18466,30 @@
 		(uuid "d3305971-eba0-4af5-bb64-7d848aa26433")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 425.2816 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CAM_~{RESET}"
+		(shape bidirectional)
+		(at 180.34 213.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "d49239c2-dc8f-4762-bed0-4f472a0809c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.34 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18368,6 +18549,30 @@
 			)
 		)
 	)
+	(global_label "EXT_XCLK"
+		(shape bidirectional)
+		(at 359.41 356.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "dbf53102-a180-4253-ac48-6e5cf0627460")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 359.41 356.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "DATA4"
 		(shape bidirectional)
 		(at 461.01 321.31 0)
@@ -18381,6 +18586,54 @@
 		(uuid "dc060ac8-f790-45ad-a70b-5387406cbe19")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 470.536 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "PWDN"
+		(shape bidirectional)
+		(at 251.46 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "dc28741a-476e-4367-8683-f1303e1a6f58")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.46 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape bidirectional)
+		(at 180.34 208.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "e2dcbf55-4e23-406f-b126-4393aa46079c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.34 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18416,33 +18669,9 @@
 			)
 		)
 	)
-	(global_label "DATA7"
-		(shape bidirectional)
-		(at 326.39 361.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "f16693a9-6e80-4768-a256-5f6d7080ae8f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 335.916 361.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "VSYNC"
 		(shape bidirectional)
-		(at 326.39 354.33 0)
+		(at 175.26 180.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18450,9 +18679,9 @@
 			)
 			(justify left)
 		)
-		(uuid "f78f5a31-d10e-4c3d-9476-514d5cf69fa7")
+		(uuid "f4cf76d5-362e-420a-921c-0959ecb2624b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 336.2716 354.33 0)
+			(at 175.26 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18883,7 +19112,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 417.83 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -18916,7 +19145,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6119932"
+		(property "LCSC" "C96446"
 			(at 417.83 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -18984,7 +19213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 77.47 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -19017,7 +19246,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C1525"
 			(at 77.47 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -19074,7 +19303,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 92.71 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -19107,7 +19336,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C1525"
 			(at 92.71 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -19320,7 +19549,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 107.95 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -19353,7 +19582,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C1525"
 			(at 107.95 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -19412,7 +19641,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit OV5640 Breakout:SOT23-5"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 344.17 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -19466,6 +19695,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C408971"
+			(at 344.17 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b8c26972-1af7-4bdc-a569-c13040783b92")
 		)
@@ -19485,84 +19725,6 @@
 			(project "Adafruit Metro RP2350"
 				(path "/bb34c11d-ee16-46c2-a112-616599426159"
 					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit Metro RP2350-eagle-import:supply1_371_GND")
-		(at 287.02 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "098d22ee-12db-475f-87b4-657c5a2cdae3")
-		(property "Reference" "#GND04"
-			(at 287.02 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 284.48 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 287.02 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 287.02 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 287.02 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c4a30c61-13ac-4fa0-b1ec-23c0b51d4614")
-		)
-		(instances
-			(project "Adafruit Metro RP2350"
-				(path "/bb34c11d-ee16-46c2-a112-616599426159"
-					(reference "#GND04")
 					(unit 1)
 				)
 			)
@@ -19599,7 +19761,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 233.68 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -19632,7 +19794,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420320"
 			(at 233.68 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -19643,10 +19805,10 @@
 				)
 			)
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "3589b471-eec8-45c4-99df-c347cc62cfc7")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "40575f38-bfbe-46a4-bc2e-efc54a024b6a")
 		)
 		(instances
@@ -19689,7 +19851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 86.36 41.402 90)
 			(hide yes)
 			(show_name no)
@@ -19722,7 +19884,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C27834"
+		(property "LCSC" "C25905"
 			(at 86.36 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -19754,6 +19916,83 @@
 			(project "Adafruit Metro RP2350"
 				(path "/bb34c11d-ee16-46c2-a112-616599426159"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 398.78 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0b22a124-2d74-4f37-9f70-e439539a8652")
+		(property "Reference" "#PWR032"
+			(at 398.78 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 398.907 130.1242 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 398.78 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 398.78 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 398.78 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c56d0377-3dae-4384-a27a-43af2233db09")
+		)
+		(instances
+			(project "Adafruit Metro RP2350"
+				(path "/bb34c11d-ee16-46c2-a112-616599426159"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -19832,6 +20071,109 @@
 			(project "Adafruit Metro RP2350"
 				(path "/bb34c11d-ee16-46c2-a112-616599426159"
 					(reference "#GND010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 427.99 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0ddcd315-fbf8-4400-bc81-44dd6816f04f")
+		(property "Reference" "C46"
+			(at 430.911 182.9816 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12pF"
+			(at 430.911 185.293 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 428.9552 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 427.99 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 427.99 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1547"
+			(at 427.99 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 427.99 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c85dab50-fa73-4ba6-a17e-5bd0b4964e12")
+		)
+		(pin "2"
+			(uuid "08be7fdb-513d-4f9c-b204-ff3c0679ac96")
+		)
+		(instances
+			(project "Adafruit Metro RP2350"
+				(path "/bb34c11d-ee16-46c2-a112-616599426159"
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -19948,7 +20290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit OV5640 Breakout:0603-NO"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 402.59 336.55 0)
 			(hide yes)
 			(show_name no)
@@ -19971,6 +20313,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 402.59 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 402.59 336.55 0)
 			(hide yes)
 			(show_name no)
@@ -20218,7 +20571,7 @@
 				)
 			)
 		)
-		(pin "P$1"
+		(pin "1"
 			(uuid "6a8298ed-f2ff-4ecc-bf83-df20acfea583")
 		)
 		(instances
@@ -20387,6 +20740,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 381 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1549eef1-bf58-4808-9fa1-1c91ed7efb6b")
+		(property "Reference" "#PWR030"
+			(at 381 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 381.127 161.8742 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 381 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87492f39-91c0-48cc-9a06-1dbd4747ef00")
+		)
+		(instances
+			(project "Adafruit Metro RP2350"
+				(path "/bb34c11d-ee16-46c2-a112-616599426159"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit Metro RP2350-eagle-import:microbuilder_CAP_CERAMIC_0603WIDE")
 		(at 69.85 107.95 0)
 		(unit 1)
@@ -20417,7 +20847,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 69.85 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -20450,7 +20880,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15850"
+		(property "LCSC" "C96446"
 			(at 69.85 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -20585,7 +21015,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 420.37 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -20618,7 +21048,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C1525"
 			(at 420.37 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -20686,7 +21116,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit OV5640 Breakout:0805-NO"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 481.33 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -20709,6 +21139,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 481.33 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C96446"
 			(at 481.33 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -20845,7 +21286,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 63.5 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -20878,7 +21319,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17561"
+		(property "LCSC" "C25092"
 			(at 63.5 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -21016,7 +21457,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 242.062 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -21049,7 +21490,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17414"
+		(property "LCSC" "C25744"
 			(at 243.84 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -21108,7 +21549,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 63.5 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -21141,7 +21582,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17561"
+		(property "LCSC" "C25092"
 			(at 63.5 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -21240,6 +21681,102 @@
 			(project "Adafruit Metro RP2350"
 				(path "/bb34c11d-ee16-46c2-a112-616599426159"
 					(reference "#U$17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
+		(at 403.86 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "24fb0c8f-9f38-4ba8-9c9b-2b8325249042")
+		(property "Reference" "J4"
+			(at 403.86 169.545 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CAN"
+			(at 408.94 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
+			(at 403.86 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 403.86 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAN bus, JST SH 1.0 mm 3-pin"
+			(at 403.86 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7430445"
+			(at 403.86 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0144553d-77d7-4b89-bfb3-d817c0bc30d6")
+		)
+		(pin "2"
+			(uuid "4469c220-6f10-4b33-a391-f4a2662ce95f")
+		)
+		(pin "3"
+			(uuid "5a8a3402-0241-4081-9899-24333e0af819")
+		)
+		(pin "MP"
+			(uuid "472a77ee-36b0-4207-a6ad-75dfe992f1b0")
+		)
+		(instances
+			(project "Adafruit Metro RP2350"
+				(path "/bb34c11d-ee16-46c2-a112-616599426159"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -21354,7 +21891,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit OV5640 Breakout:0603-NO"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 488.95 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -21377,6 +21914,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 488.95 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1555"
 			(at 488.95 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -21593,7 +22141,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 40.64 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -21626,7 +22174,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17415"
+		(property "LCSC" "C25077"
 			(at 40.64 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -21683,7 +22231,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit OV5640 Breakout:0805-NO"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 367.03 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -21706,6 +22254,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 367.03 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C96446"
 			(at 367.03 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -21764,7 +22323,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 238.76 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -21797,7 +22356,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17513"
+		(property "LCSC" "C11702"
 			(at 238.76 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -21854,7 +22413,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 279.4 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -21887,7 +22446,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C52923"
 			(at 279.4 209.55 90)
 			(hide yes)
 			(show_name no)
@@ -22022,7 +22581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit OV5640 Breakout:0805-NO"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 326.39 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -22045,6 +22604,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 326.39 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C96446"
 			(at 326.39 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -22105,7 +22675,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 238.76 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -22138,7 +22708,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17513"
+		(property "LCSC" "C11702"
 			(at 238.76 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -22159,145 +22729,6 @@
 			(project "Adafruit Metro RP2350"
 				(path "/bb34c11d-ee16-46c2-a112-616599426159"
 					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x09_Counter_Clockwise")
-		(at 303.53 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "2db2ff63-3583-4143-acaf-09916973c8d0")
-		(property "Reference" "J2"
-			(at 304.8 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x09_Counter_Clockwise"
-			(at 304.8 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x09_P2.54mm_Vertical"
-			(at 303.53 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 303.53 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x09, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 303.53 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C22438186"
-			(at 303.53 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "18"
-			(uuid "949d01ab-bea2-43e5-9a9b-8d5b5be62f20")
-		)
-		(pin "1"
-			(uuid "1f9cbdb6-2a59-4819-91fe-249b616233db")
-		)
-		(pin "14"
-			(uuid "27006594-1e8f-49f3-9b87-90ceec2b9a7f")
-		)
-		(pin "2"
-			(uuid "4bb6ba04-7006-4b80-acac-2f98cc182e0f")
-		)
-		(pin "13"
-			(uuid "27daa40f-e26d-488a-a902-b66b07854dfd")
-		)
-		(pin "5"
-			(uuid "09849950-22fb-4a39-a44f-79619d6a14f6")
-		)
-		(pin "15"
-			(uuid "d9b7cfc5-a724-4bb2-812e-bf0fcb0cd554")
-		)
-		(pin "11"
-			(uuid "3a5cdac5-5f08-42a1-8e23-1dd3cc218c79")
-		)
-		(pin "17"
-			(uuid "1a52fb4b-a2f1-4351-b390-59e92a34c5f0")
-		)
-		(pin "6"
-			(uuid "2474dc7d-0bda-441f-92d5-341ce7da26e3")
-		)
-		(pin "4"
-			(uuid "c0ced4d5-94a9-409e-8f4f-d48afc558e65")
-		)
-		(pin "3"
-			(uuid "9aa32783-7dcd-43f5-9ded-c7138fd429ee")
-		)
-		(pin "9"
-			(uuid "b67bd8ac-1d40-4145-b50c-0f5f2feb26a0")
-		)
-		(pin "7"
-			(uuid "bccf361a-e6e7-403b-814b-14881cf224a7")
-		)
-		(pin "10"
-			(uuid "6cd21f92-60a9-47cb-bdad-08cb1585be03")
-		)
-		(pin "16"
-			(uuid "098f2e65-04f2-4563-921d-9d06c70b2b40")
-		)
-		(pin "12"
-			(uuid "943f47da-41fc-43b3-97f6-c71b1379db1a")
-		)
-		(pin "8"
-			(uuid "c368b4ae-b68e-41b4-a79b-ade7d8021a1b")
-		)
-		(instances
-			(project "Adafruit Metro RP2350"
-				(path "/bb34c11d-ee16-46c2-a112-616599426159"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -22446,6 +22877,84 @@
 			(project "Adafruit Metro RP2350"
 				(path "/bb34c11d-ee16-46c2-a112-616599426159"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit Metro RP2350-eagle-import:microbuilder_3.3V")
+		(at 381 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "31e5cb20-a7cb-4632-9694-fad0b433ebc6")
+		(property "Reference" "#U$91"
+			(at 381 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 379.476 136.144 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 381 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7088f650-f6ea-45dd-b474-2ba5b4a339a7")
+		)
+		(instances
+			(project "Adafruit Metro RP2350"
+				(path "/bb34c11d-ee16-46c2-a112-616599426159"
+					(reference "#U$91")
 					(unit 1)
 				)
 			)
@@ -22749,7 +23258,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 21.59 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -22782,7 +23291,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C1525"
 			(at 21.59 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -22843,7 +23352,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 241.3 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -22876,7 +23385,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17513"
+		(property "LCSC" "C11702"
 			(at 241.3 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -22933,7 +23442,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 100.33 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -22966,7 +23475,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C1525"
 			(at 100.33 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -23226,6 +23735,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 427.99 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3a041db5-44f5-4904-b2a3-bfe7c51521f8")
+		(property "Reference" "#PWR028"
+			(at 427.99 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 428.117 192.3542 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 427.99 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 427.99 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 427.99 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9531e11-6759-48e8-857d-c8becb642fcf")
+		)
+		(instances
+			(project "Adafruit Metro RP2350"
+				(path "/bb34c11d-ee16-46c2-a112-616599426159"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit OV5640 Breakout-eagle-import:SOLDERJUMPER")
 		(at 473.71 313.69 0)
 		(unit 1)
@@ -23258,7 +23844,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit OV5640 Breakout:SOLDERJUMPER_ARROW_NOPASTE"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 473.71 313.69 0)
 			(hide yes)
 			(show_name no)
@@ -23426,7 +24012,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 33.02 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -23459,7 +24045,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23630"
+		(property "LCSC" "C12530"
 			(at 33.02 172.72 90)
 			(hide yes)
 			(show_name no)
@@ -23520,7 +24106,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 433.07 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -23553,7 +24139,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C228697"
+		(property "LCSC" "C25879"
 			(at 433.07 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -23688,7 +24274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 317.5 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -23721,7 +24307,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C52923"
 			(at 317.5 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -23820,84 +24406,6 @@
 			(project "Adafruit Metro RP2350"
 				(path "/bb34c11d-ee16-46c2-a112-616599426159"
 					(reference "#U$072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit OV5640 Breakout-eagle-import:supply1_371_GND")
-		(at 389.89 270.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "454832fb-d5c3-4576-aca4-d11cd5d35666")
-		(property "Reference" "#GND018"
-			(at 389.89 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 387.35 273.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 389.89 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 389.89 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 389.89 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "77f5272b-114e-4232-903f-1b3e53c538f2")
-		)
-		(instances
-			(project "Adafruit Metro RP2350"
-				(path "/bb34c11d-ee16-46c2-a112-616599426159"
-					(reference "#GND018")
 					(unit 1)
 				)
 			)
@@ -24168,7 +24676,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 40.64 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -24201,7 +24709,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23630"
+		(property "LCSC" "C12530"
 			(at 40.64 154.94 90)
 			(hide yes)
 			(show_name no)
@@ -24426,7 +24934,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 115.57 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -24459,7 +24967,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C1525"
 			(at 115.57 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -24651,7 +25159,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4e5a1595-278d-4899-997b-b06dec8e7a39")
 		(property "Reference" "OSC1"
 			(at 461.01 348.615 0)
@@ -24675,7 +25183,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit OV5640 Breakout:OSC_3.2X2.5MM"
+		(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm"
 			(at 453.39 356.87 0)
 			(hide yes)
 			(show_name no)
@@ -24698,6 +25206,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 453.39 356.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C712738"
 			(at 453.39 356.87 0)
 			(hide yes)
 			(show_name no)
@@ -24994,7 +25513,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit OV5640 Breakout:0805-NO"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 316.23 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -25017,6 +25536,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 316.23 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C96446"
 			(at 316.23 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -25256,7 +25786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 107.95 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -25289,7 +25819,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C1525"
 			(at 107.95 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -25483,8 +26013,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit OV5640 Breakout-eagle-import:GND")
-		(at 372.11 346.71 180)
+		(lib_id "Device:R")
+		(at 384.81 165.1 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25492,10 +26022,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "583fe2cd-da02-4357-b107-6d1457c08e63")
-		(property "Reference" "#U$034"
-			(at 372.11 346.71 0)
-			(hide yes)
+		(uuid "58cc41f4-2c67-4eb3-83f8-9dbb41c4f934")
+		(property "Reference" "R31"
+			(at 384.81 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25504,19 +26033,18 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 373.634 344.17 0)
+		(property "Value" "120"
+			(at 384.81 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.0795)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
-			(at 372.11 346.71 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 384.81 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25527,7 +26055,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 372.11 346.71 0)
+			(at 384.81 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25537,8 +26065,19 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 372.11 346.71 0)
+		(property "Description" "CAN bus terminator"
+			(at 384.81 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25079"
+			(at 384.81 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25549,12 +26088,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4937165a-351a-46d6-abeb-9049c091ee82")
+			(uuid "5242e8c3-87d0-4e81-9797-9e4439d09938")
+		)
+		(pin "2"
+			(uuid "b644b3b8-4f32-4ccc-aa8e-9e2db2ab53bc")
 		)
 		(instances
 			(project "Adafruit Metro RP2350"
 				(path "/bb34c11d-ee16-46c2-a112-616599426159"
-					(reference "#U$034")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -25595,7 +26137,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 58.42 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -25628,7 +26170,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17414"
+		(property "LCSC" "C25744"
 			(at 58.42 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -25841,7 +26383,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 229.87 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -25874,7 +26416,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C84256"
+		(property "LCSC" "C25503345"
 			(at 229.87 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -25885,10 +26427,10 @@
 				)
 			)
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "c6fece8c-2907-45da-ac9e-32b777b34592")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "d39ddd95-6f95-486c-92b6-e86b3ba7e557")
 		)
 		(instances
@@ -25931,7 +26473,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit OV5640 Breakout:0805-NO"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 361.95 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -25954,6 +26496,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 361.95 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C96446"
 			(at 361.95 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -26166,7 +26719,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit OV5640 Breakout:0805-NO"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 321.31 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -26189,6 +26742,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 321.31 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C96446"
 			(at 321.31 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -26365,108 +26929,6 @@
 			(project "Adafruit Metro RP2350"
 				(path "/bb34c11d-ee16-46c2-a112-616599426159"
 					(reference "#U$64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit OV5640 Breakout-eagle-import:HEADER-1X970MIL")
-		(at 374.65 359.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "675ec3c5-2442-4fc6-a136-1366dc4f7e4c")
-		(property "Reference" "JP1"
-			(at 368.3 346.075 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "HEADER-1X970MIL"
-			(at 368.3 374.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Adafruit OV5640 Breakout:1X09_ROUND_70"
-			(at 374.65 359.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 374.65 359.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 374.65 359.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ff70b480-8ebc-4ed6-b64e-d7326a56b473")
-		)
-		(pin "2"
-			(uuid "1f9be07e-e1bd-4078-9705-ce5184222842")
-		)
-		(pin "3"
-			(uuid "0a84bf30-4656-4ac2-a55f-5a581306fd9d")
-		)
-		(pin "4"
-			(uuid "18aa48c1-95d6-4a82-963c-e6c69f3ac782")
-		)
-		(pin "5"
-			(uuid "df162f99-19bd-46aa-9a66-38ebb44bacde")
-		)
-		(pin "6"
-			(uuid "17f532d6-6d22-4a7f-9442-c0290a825bb3")
-		)
-		(pin "7"
-			(uuid "a00706ba-957b-495f-a07c-b6c28c1be830")
-		)
-		(pin "8"
-			(uuid "8f8dbf10-174e-4b09-85f8-def3adc2d689")
-		)
-		(pin "9"
-			(uuid "52765d91-782a-4350-8683-2dab404f32f6")
-		)
-		(instances
-			(project "Adafruit Metro RP2350"
-				(path "/bb34c11d-ee16-46c2-a112-616599426159"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -26738,7 +27200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit OV5640 Breakout:0603-NO"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 397.51 321.31 0)
 			(hide yes)
 			(show_name no)
@@ -26761,6 +27223,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 397.51 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 397.51 321.31 0)
 			(hide yes)
 			(show_name no)
@@ -26895,7 +27368,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 125.73 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -26928,7 +27401,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C52923"
 			(at 125.73 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -27029,10 +27502,10 @@
 				)
 			)
 		)
-		(pin "P$1"
+		(pin "1"
 			(uuid "f61652d6-5f30-49e6-8c7c-c088b09d200f")
 		)
-		(pin "P$2"
+		(pin "2"
 			(uuid "98db792e-684c-44b7-bcf9-da0c4af2ffa1")
 		)
 		(instances
@@ -27236,7 +27709,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 242.57 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -27269,7 +27742,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17513"
+		(property "LCSC" "C11702"
 			(at 242.57 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -27326,7 +27799,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 229.87 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -27359,7 +27832,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C84256"
+		(property "LCSC" "C965793"
 			(at 229.87 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -27370,10 +27843,10 @@
 				)
 			)
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "cf83b486-7aa5-4c7a-aeec-b56240020398")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "848c0321-9bac-42a5-a21b-510348104a7c")
 		)
 		(instances
@@ -27576,7 +28049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lib_foot:SW_TS-1088-AR02016"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
 			(at 233.68 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -27800,7 +28273,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit OV5640 Breakout:0603-NO"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 382.27 303.53 0)
 			(hide yes)
 			(show_name no)
@@ -27823,6 +28296,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 382.27 303.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 382.27 303.53 0)
 			(hide yes)
 			(show_name no)
@@ -28037,7 +28521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 147.0152 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -28070,7 +28554,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15850"
+		(property "LCSC" "C96446"
 			(at 146.05 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -28180,6 +28664,83 @@
 			(project "Adafruit Metro RP2350"
 				(path "/bb34c11d-ee16-46c2-a112-616599426159"
 					(reference "#GND03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 436.88 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7c0e9c6b-6f23-419e-af08-76396ef232e0")
+		(property "Reference" "#PWR027"
+			(at 436.88 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 437.007 189.8142 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 436.88 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 436.88 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 436.88 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "762f66fc-a16e-4bec-9357-ed8f2f6935f7")
+		)
+		(instances
+			(project "Adafruit Metro RP2350"
+				(path "/bb34c11d-ee16-46c2-a112-616599426159"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -28372,7 +28933,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 62.23 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -28405,7 +28966,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C52923"
 			(at 62.23 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -28473,7 +29034,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 85.09 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -28506,7 +29067,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C1525"
 			(at 85.09 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -28527,84 +29088,6 @@
 			(project "Adafruit Metro RP2350"
 				(path "/bb34c11d-ee16-46c2-a112-616599426159"
 					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit OV5640 Breakout-eagle-import:3.3V")
-		(at 389.89 237.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8468fb18-ff0c-4143-ba50-5b987036a96d")
-		(property "Reference" "#U$071"
-			(at 389.89 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 388.366 236.474 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 389.89 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 389.89 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 389.89 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b73584fb-647c-4b4a-93b9-034bb3807504")
-		)
-		(instances
-			(project "Adafruit Metro RP2350"
-				(path "/bb34c11d-ee16-46c2-a112-616599426159"
-					(reference "#U$071")
 					(unit 1)
 				)
 			)
@@ -28987,7 +29470,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 76.2 47.752 90)
 			(hide yes)
 			(show_name no)
@@ -29020,7 +29503,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C27834"
+		(property "LCSC" "C25905"
 			(at 76.2 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -29079,7 +29562,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit OV5640 Breakout:0603-NO"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 407.67 308.61 0)
 			(hide yes)
 			(show_name no)
@@ -29102,6 +29585,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 407.67 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 407.67 308.61 0)
 			(hide yes)
 			(show_name no)
@@ -29160,7 +29654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 182.5752 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -29193,7 +29687,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15850"
+		(property "LCSC" "C96446"
 			(at 181.61 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -29561,7 +30055,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 36.83 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -29594,7 +30088,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C1525"
 			(at 36.83 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -29651,7 +30145,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 228.6 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -29684,7 +30178,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C84256"
+		(property "LCSC" "C25503345"
 			(at 228.6 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -29695,10 +30189,10 @@
 				)
 			)
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "b4b30802-0505-4563-835b-9418fa91e06c")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "3e12b561-e616-4242-b188-02ac7c23a1a8")
 		)
 		(instances
@@ -30076,6 +30570,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 391.16 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "99a80d0a-94d0-4cf5-aa35-710d40f0db32")
+		(property "Reference" "C45"
+			(at 394.081 120.7516 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 394.081 123.063 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 392.1252 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 391.16 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 391.16 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 391.16 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 391.16 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9aadf3db-f872-490e-abfa-cc98574e9827")
+		)
+		(pin "2"
+			(uuid "e98e8175-732d-46cf-9840-a7f456abf0dd")
+		)
+		(instances
+			(project "Adafruit Metro RP2350"
+				(path "/bb34c11d-ee16-46c2-a112-616599426159"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit Metro RP2350-eagle-import:microbuilder_3.3V")
 		(at 133.35 100.33 0)
 		(unit 1)
@@ -30232,6 +30829,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 391.16 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9c79ca45-d354-4aca-8216-0a4abb051102")
+		(property "Reference" "#PWR031"
+			(at 391.16 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 391.287 130.1242 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 391.16 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 391.16 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 391.16 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c3b46ad-5266-46ae-8060-2d304309374b")
+		)
+		(instances
+			(project "Adafruit Metro RP2350"
+				(path "/bb34c11d-ee16-46c2-a112-616599426159"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit OV5640 Breakout-eagle-import:3.3V")
 		(at 478.79 311.15 0)
 		(unit 1)
@@ -30382,6 +31056,109 @@
 			(project "Adafruit Metro RP2350"
 				(path "/bb34c11d-ee16-46c2-a112-616599426159"
 					(reference "#U$57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 445.77 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9efa36fb-395e-46b3-9f3c-733823a38383")
+		(property "Reference" "C47"
+			(at 448.691 182.9816 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12pF"
+			(at 448.691 185.293 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 446.7352 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 445.77 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 445.77 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1547"
+			(at 445.77 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 445.77 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "716b7985-8644-49b6-ab27-8362f2169cfd")
+		)
+		(pin "2"
+			(uuid "51e18513-d51e-457e-b415-495f5e4df424")
+		)
+		(instances
+			(project "Adafruit Metro RP2350"
+				(path "/bb34c11d-ee16-46c2-a112-616599426159"
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -30903,7 +31680,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit OV5640 Breakout:0805-NO"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 488.95 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -30926,6 +31703,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 488.95 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C96446"
 			(at 488.95 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -31305,7 +32093,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "a721a100-ca7a-48ea-8175-60f1e8eb6778")
 		(property "Reference" "ON0"
 			(at 229.87 73.025 0)
@@ -31327,7 +32115,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 228.6 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -31360,7 +32148,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C84256"
+		(property "LCSC" "C965793"
 			(at 228.6 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -31371,10 +32159,10 @@
 				)
 			)
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "770603db-81fa-4ef7-b870-4cf17575595d")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "9ee3d2d9-4f69-45ba-897b-0459149f2894")
 		)
 		(instances
@@ -31667,7 +32455,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 242.57 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -31700,7 +32488,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17513"
+		(property "LCSC" "C11702"
 			(at 242.57 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -31928,7 +32716,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 445.77 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -31961,7 +32749,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19171390"
+		(property "LCSC" "C25503345"
 			(at 445.77 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -31972,10 +32760,10 @@
 				)
 			)
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "c8425dc0-4b4c-4992-8d7b-42c2a27533bb")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "6ac66d04-62ff-46fd-8deb-cef5287d448f")
 		)
 		(instances
@@ -32020,7 +32808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit OV5640 Breakout:OV2640FSL"
+		(property "Footprint" "Connector_FFC-FPC:Jushuo_AFC07-S24FCA-00_1x24-1MP_P0.50_Horizontal"
 			(at 443.23 316.23 0)
 			(hide yes)
 			(show_name no)
@@ -32043,6 +32831,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 443.23 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C262567"
 			(at 443.23 316.23 0)
 			(hide yes)
 			(show_name no)
@@ -32125,97 +32924,13 @@
 		(pin "24"
 			(uuid "077b8fb8-8ace-4389-a5cc-d38889e01633")
 		)
-		(pin "SPRT1"
+		(pin "MP"
 			(uuid "d80853f5-a7c4-4986-803f-392de17afadb")
-		)
-		(pin "SPRT2"
-			(uuid "61293f3a-b1d8-4b51-9b00-7af71e3e737b")
 		)
 		(instances
 			(project "Adafruit Metro RP2350"
 				(path "/bb34c11d-ee16-46c2-a112-616599426159"
 					(reference "X1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit OV5640 Breakout-eagle-import:SOLDERJUMPERCLOSED")
-		(at 389.89 255.27 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "af84d259-2f14-4383-a7c1-61535990d229")
-		(property "Reference" "SJ3"
-			(at 387.35 257.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "SOLDERJUMPERCLOSED"
-			(at 393.7 257.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Adafruit OV5640 Breakout:SOLDERJUMPER_CLOSEDWIRE"
-			(at 389.89 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 389.89 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 389.89 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c582535d-eb62-437d-b20c-a89c27b7e7f7")
-		)
-		(pin "2"
-			(uuid "36d28144-70ef-4abb-b0dd-91d9e8aa8cfc")
-		)
-		(instances
-			(project "Adafruit Metro RP2350"
-				(path "/bb34c11d-ee16-46c2-a112-616599426159"
-					(reference "SJ3")
 					(unit 1)
 				)
 			)
@@ -32256,7 +32971,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 242.57 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -32289,7 +33004,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17513"
+		(property "LCSC" "C11702"
 			(at 242.57 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -32348,7 +33063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit OV5640 Breakout:0603-NO"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 412.75 308.61 0)
 			(hide yes)
 			(show_name no)
@@ -32371,6 +33086,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 412.75 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 412.75 308.61 0)
 			(hide yes)
 			(show_name no)
@@ -32654,6 +33380,135 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Crystal_GND24")
+		(at 436.88 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b504e4d0-d52b-4e13-9317-b645a86a4aa8")
+		(property "Reference" "Y2"
+			(at 436.88 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "16MHz"
+			(at 436.626 168.656 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+			(at 436.88 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 436.88 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 436.88 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+			(at 436.88 193.04 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+			(at 436.88 195.58 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C13738"
+			(at 436.88 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field8" ""
+			(at 436.88 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e02ed1f-1fb4-48f6-b64a-7ccac4452207")
+		)
+		(pin "2"
+			(uuid "d9439f18-6bba-4995-97a1-fdbd7c709996")
+		)
+		(pin "3"
+			(uuid "fa672287-dab6-4fa0-803c-a5a2ed3ab092")
+		)
+		(pin "4"
+			(uuid "f3b95454-fe60-408f-9001-66f4ea29bdff")
+		)
+		(instances
+			(project "Adafruit Metro RP2350"
+				(path "/bb34c11d-ee16-46c2-a112-616599426159"
+					(reference "Y2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit Metro RP2350-eagle-import:microbuilder_3.3V")
 		(at 48.26 243.84 0)
 		(unit 1)
@@ -32762,7 +33617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 35.56 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -32795,7 +33650,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1648"
+		(property "LCSC" "C1554"
 			(at 35.56 200.66 90)
 			(hide yes)
 			(show_name no)
@@ -32856,7 +33711,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 242.57 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -32889,7 +33744,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17513"
+		(property "LCSC" "C11702"
 			(at 242.57 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -33150,84 +34005,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit Metro RP2350-eagle-import:microbuilder_3.3V")
-		(at 287.02 30.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b8c624e1-303a-49ec-be9c-6616016ef997")
-		(property "Reference" "#U$09"
-			(at 287.02 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 285.496 29.464 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 287.02 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 287.02 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 287.02 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3f8512b6-7616-4c19-8a4f-da0a07bb9cd6")
-		)
-		(instances
-			(project "Adafruit Metro RP2350"
-				(path "/bb34c11d-ee16-46c2-a112-616599426159"
-					(reference "#U$09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Adafruit Metro RP2350-eagle-import:microbuilder_GND")
 		(at 336.55 217.17 0)
 		(unit 1)
@@ -33300,84 +34077,6 @@
 			(project "Adafruit Metro RP2350"
 				(path "/bb34c11d-ee16-46c2-a112-616599426159"
 					(reference "#U$28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit OV5640 Breakout-eagle-import:3.3V")
-		(at 326.39 341.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ba43d6c7-58e6-4785-aeda-7e5e46e16ade")
-		(property "Reference" "#U$022"
-			(at 326.39 341.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 324.866 340.614 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 326.39 341.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 326.39 341.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 326.39 341.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "045d1938-4a29-4ef4-b765-b9b61f06eab0")
-		)
-		(instances
-			(project "Adafruit Metro RP2350"
-				(path "/bb34c11d-ee16-46c2-a112-616599426159"
-					(reference "#U$022")
 					(unit 1)
 				)
 			)
@@ -33462,6 +34161,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Adafruit Metro RP2350-eagle-import:microbuilder_3.3V")
+		(at 391.16 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bad9ae0d-a14f-419f-85e8-761109a16d13")
+		(property "Reference" "#U$92"
+			(at 391.16 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 389.636 114.554 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 391.16 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 391.16 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 391.16 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72005c83-6f65-45ec-82fc-b610f5ab4c0c")
+		)
+		(instances
+			(project "Adafruit Metro RP2350"
+				(path "/bb34c11d-ee16-46c2-a112-616599426159"
+					(reference "#U$92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit OV5640 Breakout-eagle-import:AGND")
 		(at 425.45 311.15 0)
 		(unit 1)
@@ -33540,135 +34317,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit OV5640 Breakout-eagle-import:PINHD-2X9-BIG")
-		(at 349.25 359.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bfec122c-28a1-46af-858c-f06b63923ad3")
-		(property "Reference" "JP2"
-			(at 342.9 346.075 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "PINHD-2X9-BIG"
-			(at 342.9 374.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Adafruit OV5640 Breakout:2X09-BIG"
-			(at 349.25 359.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 349.25 359.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 349.25 359.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9d771633-68a6-4656-93ba-a2184995a8ac")
-		)
-		(pin "2"
-			(uuid "511fd34a-e035-4dad-ae9a-33a1c4c9c6bf")
-		)
-		(pin "3"
-			(uuid "fb0b4917-b967-4b42-b51f-8426e6e01034")
-		)
-		(pin "4"
-			(uuid "e3719c4f-c4cc-4df8-a796-999c2dc9b2d2")
-		)
-		(pin "5"
-			(uuid "44e3a149-a1f8-49b7-abc4-e64b462c6448")
-		)
-		(pin "6"
-			(uuid "099e04c4-4c33-4032-9c42-ac0871360a8b")
-		)
-		(pin "7"
-			(uuid "e1c66b35-e484-4e31-a0a9-9789afb433f2")
-		)
-		(pin "8"
-			(uuid "17292377-a691-460f-8096-0f0923508557")
-		)
-		(pin "9"
-			(uuid "d3606ac6-a19a-4cb0-b7f0-89860115079f")
-		)
-		(pin "10"
-			(uuid "bb59aadf-ce6e-4fd4-90d3-2db7b9c7cc17")
-		)
-		(pin "11"
-			(uuid "f49d0261-c209-4c26-a941-3ae83f64c958")
-		)
-		(pin "12"
-			(uuid "294c0ccd-05e9-417f-9523-ce801ac405ea")
-		)
-		(pin "13"
-			(uuid "b2d994a2-9468-4267-bb64-c664451a9080")
-		)
-		(pin "14"
-			(uuid "a877a87f-ef1c-4957-a96b-26015421f458")
-		)
-		(pin "15"
-			(uuid "201abd7f-d882-4e22-bf4d-0def21a1ac97")
-		)
-		(pin "16"
-			(uuid "73e62bf8-bb0f-4817-b5f9-58110b38bc2b")
-		)
-		(pin "17"
-			(uuid "4a5692a5-c6b2-481e-b6d9-b61b7667e259")
-		)
-		(pin "18"
-			(uuid "d9ef1e20-26f9-4271-9650-eb3049d9cd4b")
-		)
-		(instances
-			(project "Adafruit Metro RP2350"
-				(path "/bb34c11d-ee16-46c2-a112-616599426159"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Adafruit Metro RP2350-eagle-import:microbuilder_RESISTOR_0603_NOOUT")
 		(at 40.64 190.5 0)
 		(unit 1)
@@ -33703,7 +34351,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 40.64 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -33736,7 +34384,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17513"
+		(property "LCSC" "C11702"
 			(at 40.64 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -33999,6 +34647,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 403.86 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c637df86-f496-4c6e-95c6-523e5708f849")
+		(property "Reference" "#PWR026"
+			(at 403.86 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 403.86 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 403.86 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 403.86 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 403.86 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "817f36f5-29b9-4279-9290-25da85e9c78c")
+		)
+		(instances
+			(project "Adafruit Metro RP2350"
+				(path "/bb34c11d-ee16-46c2-a112-616599426159"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit OV5640 Breakout-eagle-import:3.3V")
 		(at 412.75 300.99 0)
 		(unit 1)
@@ -34107,7 +34832,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 153.67 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -34140,7 +34865,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C1525"
 			(at 153.67 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -34208,7 +34933,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit OV5640 Breakout:0603-NO"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 374.65 303.53 0)
 			(hide yes)
 			(show_name no)
@@ -34231,6 +34956,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 374.65 303.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 374.65 303.53 0)
 			(hide yes)
 			(show_name no)
@@ -34334,6 +35070,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 373.38 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d12e5af0-6975-4e2f-9071-f728fd7075c1")
+		(property "Reference" "JP3"
+			(at 373.38 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CAN_TERM"
+			(at 373.38 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 373.38 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Close to terminate the CAN bus with 120 R"
+			(at 373.38 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3deba9e6-9926-456d-8c2e-37fb95fd07c0")
+		)
+		(pin "2"
+			(uuid "44f6ac2c-5a0a-43bc-860f-fbfad819b59c")
+		)
+		(instances
+			(project "Adafruit Metro RP2350"
+				(path "/bb34c11d-ee16-46c2-a112-616599426159"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit OV5640 Breakout-eagle-import:CAP_CERAMIC0603_NO")
 		(at 372.11 255.27 0)
 		(unit 1)
@@ -34364,7 +35179,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit OV5640 Breakout:0603-NO"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 372.11 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -34387,6 +35202,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 372.11 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 372.11 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -34525,7 +35351,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 231.14 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -34558,7 +35384,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17414"
+		(property "LCSC" "C25744"
 			(at 231.14 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -34616,7 +35442,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lib_foot:SW_TS-1088-AR02016"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
 			(at 157.48 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -34996,7 +35822,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 257.81 127 0)
 			(hide yes)
 			(show_name no)
@@ -35029,7 +35855,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C52923"
 			(at 257.81 127 90)
 			(hide yes)
 			(show_name no)
@@ -35088,7 +35914,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit OV5640 Breakout:SOT23-5"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 453.39 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -35134,6 +35960,17 @@
 		)
 		(property "JLC_ROTATION_1" "0"
 			(at 453.39 260.858 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C469895"
+			(at 453.39 250.19 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35188,7 +36025,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148WT"
 			(at 452.12 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35198,7 +36035,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 452.12 156.845 0)
 			(hide yes)
 			(show_name no)
@@ -35244,6 +36081,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 452.12 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420320"
+			(at 452.12 156.845 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35299,7 +36147,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 229.87 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -35332,7 +36180,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C84256"
+		(property "LCSC" "C22355736"
 			(at 229.87 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -35343,10 +36191,10 @@
 				)
 			)
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "b2a2115f-fef3-4478-be07-e4508c008296")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "64b19b10-5679-4bd8-b029-26fa6c1fd70e")
 		)
 		(instances
@@ -35389,7 +36237,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit OV5640 Breakout:0603-NO"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 471.17 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -35412,6 +36260,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 471.17 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 471.17 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -35510,96 +36369,6 @@
 			(project "Adafruit Metro RP2350"
 				(path "/bb34c11d-ee16-46c2-a112-616599426159"
 					(reference "#GND12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit OV5640 Breakout-eagle-import:LED0603_NOOUTLINE")
-		(at 389.89 265.43 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e093782f-4066-4bbe-a25e-4b6c9184c1e2")
-		(property "Reference" "D2"
-			(at 394.335 264.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-			)
-		)
-		(property "Value" "GREEN"
-			(at 387.096 264.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-			)
-		)
-		(property "Footprint" "Adafruit OV5640 Breakout:CHIPLED_0603_NOOUTLINE"
-			(at 389.89 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 389.89 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 389.89 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ROT" "270"
-			(at 389.89 271.272 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "A"
-			(uuid "00b9a865-83bf-4e10-8336-85e1b9761502")
-		)
-		(pin "C"
-			(uuid "0edb7c47-6166-4e0f-b8ea-e0f275cbbbb2")
-		)
-		(instances
-			(project "Adafruit Metro RP2350"
-				(path "/bb34c11d-ee16-46c2-a112-616599426159"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -35825,7 +36594,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 229.87 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -35858,7 +36627,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C84256"
+		(property "LCSC" "C25503856"
 			(at 229.87 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -35869,10 +36638,10 @@
 				)
 			)
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "20b20d60-1a54-4857-8ab2-534d95a7a34e")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "a485c50d-2b0c-4cba-9f31-109cafb1decf")
 		)
 		(instances
@@ -35993,7 +36762,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 450.85 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -36016,6 +36785,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 450.85 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 450.85 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -36072,7 +36852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 27.94 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -36105,7 +36885,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1648"
+		(property "LCSC" "C1554"
 			(at 27.94 200.66 90)
 			(hide yes)
 			(show_name no)
@@ -36173,7 +36953,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 133.35 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -36206,7 +36986,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C52923"
 			(at 133.35 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -36342,7 +37122,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 29.21 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -36375,7 +37155,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C52923"
 			(at 29.21 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -36531,6 +37311,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 398.78 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e7471ae9-fb59-4460-a291-0b3ba5e1c3b7")
+		(property "Reference" "#PWR025"
+			(at 398.78 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 398.78 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 398.78 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 398.78 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 398.78 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "055a1b8b-6341-4777-983e-01e60d29d452")
+		)
+		(instances
+			(project "Adafruit Metro RP2350"
+				(path "/bb34c11d-ee16-46c2-a112-616599426159"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit OV5640 Breakout-eagle-import:microbuilder_3.3V")
 		(at 463.55 344.17 0)
 		(mirror y)
@@ -36610,6 +37467,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 398.78 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8d019b2-7d9d-4fc0-a6b1-6420999bd7c5")
+		(property "Reference" "R32"
+			(at 401.32 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 401.32 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 397.002 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 398.78 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Rs pull-down: transceiver in high-speed mode unless GPIO37 drives it high"
+			(at 398.78 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 398.78 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba0e12ae-60f0-4058-86c0-3e128b482950")
+		)
+		(pin "2"
+			(uuid "810b56e1-031e-4700-b808-26562ff4825e")
+		)
+		(instances
+			(project "Adafruit Metro RP2350"
+				(path "/bb34c11d-ee16-46c2-a112-616599426159"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit OV5640 Breakout-eagle-import:SOLDERJUMPER_2WAY")
 		(at 410.21 356.87 0)
 		(unit 1)
@@ -36642,7 +37592,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit OV5640 Breakout:SOLDERJUMPER_2WAY_OPEN_NOPASTE"
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels"
 			(at 410.21 356.87 0)
 			(hide yes)
 			(show_name no)
@@ -36726,7 +37676,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit OV5640 Breakout:0603-NO"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 351.79 306.07 0)
 			(hide yes)
 			(show_name no)
@@ -36749,6 +37699,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 351.79 306.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C76886"
 			(at 351.79 306.07 0)
 			(hide yes)
 			(show_name no)
@@ -36809,7 +37770,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 452.12 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -36842,7 +37803,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C140868"
+		(property "LCSC" "C25744"
 			(at 452.12 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -36899,7 +37860,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 52.07 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -36932,7 +37893,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C1525"
 			(at 52.07 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -37583,6 +38544,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 445.77 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f2b512aa-7d9c-4355-96d8-939ee884d5db")
+		(property "Reference" "#PWR029"
+			(at 445.77 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 445.897 192.3542 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 445.77 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 445.77 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 445.77 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52d0c216-03fc-4f0d-8c7b-0d0e7617cdc3")
+		)
+		(instances
+			(project "Adafruit Metro RP2350"
+				(path "/bb34c11d-ee16-46c2-a112-616599426159"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit OV5640 Breakout-eagle-import:3.3V")
 		(at 407.67 300.99 0)
 		(unit 1)
@@ -37849,7 +38887,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit OV5640 Breakout:0603-NO"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 402.59 308.61 0)
 			(hide yes)
 			(show_name no)
@@ -37872,6 +38910,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 402.59 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 402.59 308.61 0)
 			(hide yes)
 			(show_name no)
@@ -37930,7 +38979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Adafruit OV5640 Breakout:TESTPOINT_ROUND_1.5MM"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 415.29 334.01 0)
 			(hide yes)
 			(show_name no)
@@ -37963,7 +39012,7 @@
 				)
 			)
 		)
-		(pin "P$1"
+		(pin "1"
 			(uuid "65d6401d-cdf1-424d-9a61-15141fccc9d9")
 		)
 		(instances
@@ -38010,7 +39059,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 33.02 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -38043,7 +39092,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17540"
+		(property "LCSC" "C25087"
 			(at 33.02 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -38256,7 +39305,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 321.31 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -38289,7 +39338,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C52923"
 			(at 321.31 154.94 90)
 			(hide yes)
 			(show_name no)
@@ -38506,7 +39555,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 100.33 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -38539,7 +39588,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15850"
+		(property "LCSC" "C96446"
 			(at 100.33 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -38610,7 +39659,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 233.172 144.78 90)
 			(hide yes)
 			(show_name no)
@@ -38643,7 +39692,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17414"
+		(property "LCSC" "C25744"
 			(at 234.95 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -38664,87 +39713,6 @@
 			(project "Adafruit Metro RP2350"
 				(path "/bb34c11d-ee16-46c2-a112-616599426159"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit OV5640 Breakout-eagle-import:RESISTOR_0603_NOOUT")
-		(at 389.89 245.11 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fe2fed50-ef4d-4b74-8cfc-ae3c502c3817")
-		(property "Reference" "R2"
-			(at 392.43 245.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 389.89 245.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 0.8636)
-					(thickness 0.2032)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" "Adafruit OV5640 Breakout:0603-NO"
-			(at 389.89 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 389.89 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 389.89 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f3849a5f-8cb4-4876-84b2-801594368ee5")
-		)
-		(pin "2"
-			(uuid "48742a6e-8a75-4436-b463-45ade5480eee")
-		)
-		(instances
-			(project "Adafruit Metro RP2350"
-				(path "/bb34c11d-ee16-46c2-a112-616599426159"
-					(reference "R2")
 					(unit 1)
 				)
 			)
