@@ -2,6 +2,15 @@
 
 Second prototype of the camera module, work in progress. It is built on [proto1](../proto1): the camera's supply and clock circuitry moves onto the board, the camera is wired straight to the RP2350B, a CAN bus interface is added, and the board shrinks to 40 × 40 mm.
 
+<table>
+  <tr>
+    <td align="center"><img src="docs/pcb-top.png" width="280" alt="proto2, top side"><br>top</td>
+    <td align="center"><img src="docs/pcb-bottom.png" width="280" alt="proto2, bottom side"><br>bottom</td>
+  </tr>
+</table>
+
+Renders of the current, unrouted placement.
+
 ## Changes from proto1
 
 - **Camera supply and clock on the board.** The support circuitry of the [Adafruit OV5640 breakout](https://github.com/adafruit/Adafruit-OV5640-Camera-Breakout-PCB) is on the board: a 24-pin OV5640 module connector (X1), 2.8 V and 1.5 V regulators (U8 TLV74328, U9 TLV74315) and a footprint for a 24 MHz oscillator (OSC1). Only the circuit comes from the breakout's schematic; the layout is not copied (see [NOTICE.md](../../NOTICE.md)).
@@ -100,5 +109,6 @@ To use the on-board oscillator instead: fit OSC1 (24 MHz, 3.3 V, LCSC C712738), 
 | Path | Contents |
 |---|---|
 | [`kicad/`](kicad) | KiCad 10 project: schematic and PCB |
+| [`docs/`](docs) | [Schematic PDF](docs/schematic.pdf) and renders of the board, regenerated with `scripts/export-docs.sh proto2` |
 
-Fabrication files and docs will be added when the design is ready for manufacturing. `scripts/export-docs.sh proto2` generates a schematic PDF and renders at any time.
+Fabrication files will be added when the design is ready for manufacturing.

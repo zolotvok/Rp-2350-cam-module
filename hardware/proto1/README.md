@@ -2,6 +2,13 @@
 
 First prototype of the camera module. Sent to manufacturing (JLCPCB assembly) in July 2026 and brought up with custom firmware: it captures photos up to the sensor's full 2592 × 1944 resolution and streams video over USB.
 
+<table>
+  <tr>
+    <td align="center"><img src="docs/pcb-top.png" width="280" alt="proto1, top side"><br>top</td>
+    <td align="center"><img src="docs/pcb-bottom.png" width="280" alt="proto1, bottom side"><br>bottom</td>
+  </tr>
+</table>
+
 | | |
 |---|---|
 | Board | 4 layers, about 41.6 × 78 mm, 1.6 mm |

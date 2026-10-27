@@ -10,9 +10,15 @@ root="$(cd "$(dirname "$0")/.." && pwd)/hardware/$proto"
 name="Adafruit Metro RP2350"
 out="$root/docs"
 
+# render size follows the board outline: proto1 is 41.6 x 78 mm, proto2 40 x 40 mm
+case "$proto" in
+    proto1) width=1000 height=1900 ;;
+    *)      width=1000 height=1000 ;;
+esac
+
 mkdir -p "$out"
 kicad-cli sch export pdf -o "$out/schematic.pdf" "$root/kicad/$name.kicad_sch"
 for side in top bottom; do
-    kicad-cli pcb render --side "$side" --quality high --width 1000 --height 1900 \
+    kicad-cli pcb render --side "$side" --quality high --width "$width" --height "$height" \
         -o "$out/pcb-$side.png" "$root/kicad/$name.kicad_pcb"
 done

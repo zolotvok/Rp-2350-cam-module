@@ -1,13 +1,15 @@
 # Rp-2350-cam-module
 
-A compact camera board for a satellite project, built around an **RP2350B** microcontroller and an **OV5640** 5-megapixel image sensor. Two external PSRAM chips (4 MiB in total) hold full-resolution frames until they are sent out over USB.
+A compact camera board for a satellite project, built around an **RP2350B** microcontroller and an **OV5640** 5-megapixel image sensor. Two external PSRAM chips (4 MiB in total) hold full-resolution frames until they are sent out over USB, and a CAN bus interface connects the board to the rest of the satellite.
 
 <table>
   <tr>
-    <td align="center"><img src="hardware/proto1/docs/pcb-top.png" width="280" alt="proto1, top side"><br>proto1, top</td>
-    <td align="center"><img src="hardware/proto1/docs/pcb-bottom.png" width="280" alt="proto1, bottom side"><br>proto1, bottom</td>
+    <td align="center"><img src="hardware/proto2/docs/pcb-top.png" width="280" alt="proto2, top side"><br>proto2, top</td>
+    <td align="center"><img src="hardware/proto2/docs/pcb-bottom.png" width="280" alt="proto2, bottom side"><br>proto2, bottom</td>
   </tr>
 </table>
+
+proto2 as of October 2026: parts placed, not routed yet. proto1, the manufactured board, is pictured in [its README](hardware/proto1).
 
 ## Prototypes
 
@@ -18,26 +20,34 @@ A compact camera board for a satellite project, built around an **RP2350B** micr
 
 Each prototype directory has its own README with the details.
 
-## proto1 at a glance
+## proto2 at a glance
 
 - **MCU:** RP2350B (QFN-80), 12 MHz crystal
 - **Memory:** 16 MiB QSPI flash (W25Q128JVS) and 2 × 2 MiB PSRAM (APS1604M-3SQR-SN) on the same QSPI bus; one chip-select signal is steered to either PSRAM by a 74LVC1G19, so the two chips work as two switchable banks
-- **Camera:** OV5640 module on a 2×9 header, 8-bit parallel (DVP) interface captured with a PIO state machine and DMA
-- **Interfaces:** USB-C (power and data), UART with flow control, SWD
-- **Board:** 4 layers, about 41.6 × 78 mm
+- **Camera:** OV5640 module on a 24-pin FPC connector, with its 2.8 V and 1.5 V regulators on the board; 8-bit parallel (DVP) interface captured with a PIO state machine and DMA; XCLK from the RP2350 (an on-board 24 MHz oscillator can be fitted instead)
+- **CAN bus:** MCP2515 controller on SPI0 and SN65HVD230 transceiver, JST SH connector, jumper-selectable 120 Ω termination
+- **Interfaces:** USB-C (power and data), CAN, UART with flow control, SWD
+- **Board:** 4 layers, 40 × 40 mm, parts on both sides
 
 ```mermaid
 flowchart LR
     USB["USB-C<br/>5 V + data"] --> MCU
     USB --> LDO["NCP1117<br/>3.3 V"]
-    LDO -.->|"3.3 V"| CAM
-    CAM["OV5640 module<br/>on 2×9 header"] -- "8-bit parallel (DVP)" --> MCU
-    MCU["RP2350B"] -- "XCLK, I²C, reset" --> CAM
+    LDO -.->|"3.3 V"| CAMLDO["TLV74328 / TLV74315<br/>2.8 V, 1.5 V"]
+    LDO -.->|"3.3 V I/O"| CAM
+    CAMLDO -.-> CAM
+    CAM["OV5640 module<br/>24-pin FPC"] -- "8-bit parallel (DVP)" --> MCU
+    MCU["RP2350B"] -- "XCLK, I²C, reset, PWDN" --> CAM
     MCU -- "QSPI" --> FLASH["Flash<br/>16 MiB"]
     MCU -- "QSPI" --> P0["PSRAM 0<br/>2 MiB"] & P1["PSRAM 1<br/>2 MiB"]
     MCU -- "CS1 + GPIO26" --> MUX["CS demux<br/>74LVC1G19"]
     MUX -- "CE" --> P0 & P1
+    MCU -- "SPI0 + INT" --> CANC["MCP2515<br/>CAN controller"]
+    CANC -- "TX / RX" --> XCVR["SN65HVD230<br/>transceiver"]
+    XCVR -- "CANH / CANL" --> CANBUS["CAN bus<br/>JST SH"]
 ```
+
+proto1 is the same design without the CAN bus, with the camera module on a 2×9 header and on a 41.6 × 78 mm board; see [its README](hardware/proto1).
 
 ## Repository layout
 
@@ -54,7 +64,8 @@ flowchart LR
 │   │   └── docs/             schematic PDF, board renders
 │   └── proto2/               second prototype, work in progress
 │       ├── README.md
-│       └── kicad/
+│       ├── kicad/
+│       └── docs/             schematic PDF, board renders
 └── scripts/
     └── export-docs.sh        regenerates a prototype's docs/ with kicad-cli
 ```
